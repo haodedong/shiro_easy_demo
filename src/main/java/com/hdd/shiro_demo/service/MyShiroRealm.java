@@ -2,14 +2,11 @@ package com.hdd.shiro_demo.service;
 
 import com.hdd.shiro_demo.dao.UUserMapper;
 import com.hdd.shiro_demo.domain.UUser;
-import com.hdd.shiro_demo.domain.UUserExample;
 import org.apache.commons.collections.CollectionUtils;
 import org.apache.shiro.authc.*;
 import org.apache.shiro.realm.Realm;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 
-import java.util.Collection;
 import java.util.Date;
 import java.util.List;
 
@@ -19,8 +16,10 @@ import java.util.List;
  * @author bill.hao
  * @create 2018/10/9 下午 1:59
  */
-
 public class MyShiroRealm implements Realm {
+
+
+
     @Autowired
     private final UUserMapper uUserMapper;
 
@@ -36,7 +35,7 @@ public class MyShiroRealm implements Realm {
 
     @Override
     public boolean supports(AuthenticationToken token) {
-        return false;
+        return token instanceof MyToken;
     }
 
     @Override
@@ -44,10 +43,10 @@ public class MyShiroRealm implements Realm {
         System.out.println("身份认证方法：MyShiroRealm.doGetAuthenticationInfo()");
         UUser uUser;
         MyToken token=(MyToken)authcToken;
-        UUserExample example=new UUserExample();
+      /*  UUserExample example=new UUserExample();
         UUserExample.Criteria criteria=example.createCriteria();
-        criteria.andNicknameEqualTo(token.getUserName()).andPswdEqualTo(token.getPassword());
-        List<UUser> uUsers = uUserMapper.selectByExample(example);
+        criteria.andNicknameEqualTo(token.getUserName()).andPswdEqualTo(token.getPassword());*/
+        List<UUser> uUsers = uUserMapper.selectByNameAndPassword(token.getUserName(),token.getPassword()    );
         if(CollectionUtils.isEmpty(uUsers)){
             throw new AccountException("账号或者密码不正确");
         }else if(uUsers.get(0).getStatus()==0){
@@ -56,7 +55,7 @@ public class MyShiroRealm implements Realm {
         else {
             uUser=uUsers.get(0);
             uUser.setLastLoginTime(new Date());
-            uUserMapper.updateByPrimaryKey(uUser);
+           // uUserMapper.updateByPrimaryKey(uUser);
         }
         return new SimpleAuthenticationInfo(uUser, uUser.getPswd(), uUser.getNickname());
     }

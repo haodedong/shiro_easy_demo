@@ -8,6 +8,7 @@ import org.apache.shiro.authc.AuthenticationToken;
  * @author bill.hao
  * @create 2018/10/9 下午 2:03
  */
+
 public class MyToken implements AuthenticationToken {
 
     private String userName;

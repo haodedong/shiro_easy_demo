@@ -1,9 +1,10 @@
 package com.hdd.shiro_demo.controller;
 
+import com.hdd.shiro_demo.domain.UUser;
 import com.hdd.shiro_demo.service.MyToken;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.AccountException;
-import org.apache.shiro.authc.DisabledAccountException;
+import org.apache.shiro.realm.jdbc.JdbcRealm;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.HashMap;
@@ -18,12 +19,13 @@ import java.util.Map;
 @RestController
 @RequestMapping("ajaxLogin")
 public class LoginController {
-    @GetMapping(value = "login")
-    public Map<String, Object> login(String name,String password) {
+    @PostMapping(value = "login")
+    public Map<String, Object> login(@RequestBody UUser uUser) {
+        JdbcRealm jdbc;
         Map<String, Object> map = new HashMap<String, Object>();
         MyToken token = new MyToken();
-        token.setUserName(name);
-        token.setPassword(password);
+        token.setUserName(uUser.getNickname());
+        token.setPassword(uUser.getPswd());
         try {
             SecurityUtils.getSubject().login(token);
             map.put("status", 200);

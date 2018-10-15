@@ -155,11 +155,6 @@
             <version>1.3.2</version>
         </dependency>
     </dependencies>
-    ---------------------
-    作者：LuisChen的博客
-    来源：CSDN
-    原文：https://blog.csdn.net/winter_chen001/article/details/77249029?utm_source=copy
-    版权声明：本文为博主原创文章，转载请附上博文链接！
     <build>
         <finalName>xxx</finalName>
         <plugins>
