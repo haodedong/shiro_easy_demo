@@ -1,4 +1,4 @@
-package com.hdd.shiro_demo.service;
+package com.hdd.shiro_demo.config;
 
 import org.apache.shiro.authc.AuthenticationToken;
 

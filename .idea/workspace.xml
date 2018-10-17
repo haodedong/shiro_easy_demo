@@ -2,17 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54b2dc57-a096-4970-b9e3-95f886d29761" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/config/AuthorizationRealm.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/dao/UPermissionMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/dao/UPermissionMapper.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/dao/URoleMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/dao/URoleMapper.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/dao/URolePermissionMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/dao/URolePermissionMapper.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/controller/LoginController.java" afterPath="$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/controller/LoginController.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/dao/UUserMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/dao/UUserMapper.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/dao/UUserRoleMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/dao/UUserRoleMapper.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/UPermissionMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/UPermissionMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/URoleMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/URoleMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/URolePermissionMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/URolePermissionMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/UUserMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/UUserMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/UUserRoleMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/UUserRoleMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/service/MyShiroRealm.java" afterPath="$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/config/MyShiroRealm.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/service/MyToken.java" afterPath="$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/config/MyToken.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/service/MybatisConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/config/MybatisConfig.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/service/ShiroConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/config/ShiroConfig.java" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hdd/shiro_demo/controller/LoginController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hdd/shiro_demo/dao/UPermissionMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/hdd/shiro_demo/dao/UPermissionMapper.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hdd/shiro_demo/dao/URoleMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/hdd/shiro_demo/dao/URoleMapper.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hdd/shiro_demo/dao/URolePermissionMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/hdd/shiro_demo/dao/URolePermissionMapper.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hdd/shiro_demo/dao/UUserMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/hdd/shiro_demo/dao/UUserMapper.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hdd/shiro_demo/dao/UUserRoleMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/hdd/shiro_demo/dao/UUserRoleMapper.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hdd/shiro_demo/service/MyShiroRealm.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hdd/shiro_demo/service/MyToken.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hdd/shiro_demo/service/ShiroConfig.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/UPermissionMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mapper/UPermissionMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/URoleMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mapper/URoleMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/URolePermissionMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mapper/URolePermissionMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/UUserMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mapper/UUserMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/UUserRoleMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mapper/UUserRoleMapper.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,100 +50,74 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UUserMapper.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UUserMapper.xml">
+      <file leaf-file-name="AuthorizationRealm.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/config/AuthorizationRealm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="445" column="12" lean-forward="true" selection-start-line="445" selection-start-column="12" selection-end-line="445" selection-end-column="12" />
+            <state relative-caret-position="136">
+              <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
               <folding>
-                <marker date="1539654780766" expanded="true" signature="4468:4486" ph="delete from u_user... " />
-                <marker date="1539654780766" expanded="true" signature="6244:6271" ph="select count... u_user" />
-                <marker date="1539654780766" expanded="true" signature="7657:8038" ph="update u_user... " />
-                <marker date="1539654780766" expanded="true" signature="8379:9026" ph="update u_user... " />
+                <element signature="imports" expanded="true" />
+                <element signature="e#784#785#0" expanded="true" />
+                <element signature="e#830#831#0" expanded="true" />
+                <element signature="e#943#944#0" expanded="true" />
+                <element signature="e#970#971#0" expanded="true" />
+                <element signature="e#1027#1028#0" expanded="true" />
+                <element signature="e#1074#1075#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UUserMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/dao/UUserMapper.java">
+      <file leaf-file-name="AuthorizingRealm.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.m2/repository/org/apache/shiro/shiro-all/1.2.3/shiro-all-1.2.3.jar!/org/apache/shiro/realm/AuthorizingRealm.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="132" column="39" lean-forward="false" selection-start-line="132" selection-start-column="16" selection-end-line="132" selection-end-column="39" />
+            <state relative-caret-position="81">
+              <caret line="36" column="22" lean-forward="false" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+              <folding>
+                <element signature="e#2059#2060#0" expanded="true" />
+                <element signature="e#2125#2126#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AuthenticatingRealm.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.m2/repository/org/apache/shiro/shiro-all/1.2.3/shiro-all-1.2.3.jar!/org/apache/shiro/realm/AuthenticatingRealm.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="24" column="53" lean-forward="false" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UUserRoleMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UUserRoleMapper.xml">
+      <file leaf-file-name="CachingRealm.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.m2/repository/org/apache/shiro/shiro-all/1.2.3/shiro-all-1.2.3.jar!/org/apache/shiro/realm/CachingRealm.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="176" column="8" lean-forward="false" selection-start-line="176" selection-start-column="8" selection-end-line="176" selection-end-column="8" />
-              <folding>
-                <marker date="1539654618174" expanded="true" signature="4067:4090" ph="delete from u_user_role... " />
-                <marker date="1539654618174" expanded="true" signature="5099:5131" ph="select count... u_user_role" />
-                <marker date="1539654618174" expanded="true" signature="5959:6064" ph="update u_user_role... " />
-                <marker date="1539654618174" expanded="true" signature="9771:9794" ph="delete from u_user_role... " />
-                <marker date="1539654618174" expanded="true" signature="10835:10867" ph="select count... u_user_role" />
-                <marker date="1539654618174" expanded="true" signature="11727:11832" ph="update u_user_role... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MapperBuilderAssistant.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.m2/repository/org/mybatis/mybatis/3.4.4/mybatis-3.4.4.jar!/org/apache/ibatis/builder/MapperBuilderAssistant.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="192" column="0" lean-forward="false" selection-start-line="192" selection-start-column="0" selection-end-line="192" selection-end-column="0" />
-              <folding>
-                <marker date="1539342410306" expanded="false" signature="0:104" ph="/.../" />
-                <marker date="1539342410306" expanded="false" signature="149:1579" ph="..." />
-                <marker date="1539342410306" expanded="true" signature="1858:1981" ph="{...}" />
-                <marker date="1539342410306" expanded="false" signature="2022:2033" ph=" { " />
-                <marker date="1539342410306" expanded="false" signature="2062:2068" ph=" }" />
-                <marker date="1539342410306" expanded="true" signature="2131:2611" ph="{...}" />
-                <marker date="1539342410306" expanded="true" signature="2687:3289" ph="{...}" />
-                <marker date="1539342410306" expanded="true" signature="3338:4158" ph="{...}" />
-                <marker date="1539342410306" expanded="true" signature="4350:4777" ph="{...}" />
-                <marker date="1539342410306" expanded="true" signature="4897:5161" ph="{...}" />
-                <marker date="1539342410306" expanded="true" signature="5406:5933" ph="{...}" />
-                <marker date="1539342410306" expanded="true" signature="6096:7899" ph="{...}" />
-                <marker date="1539342410306" expanded="true" signature="8102:8912" ph="{...}" />
-                <marker date="1539342410306" expanded="true" signature="9386:10763" ph="{...}" />
-                <marker date="1539342410306" expanded="false" signature="10822:10833" ph=" { " />
-                <marker date="1539342410306" expanded="false" signature="10877:10883" ph=" }" />
-                <marker date="1539342410306" expanded="true" signature="11009:11755" ph="{...}" />
-                <marker date="1539342410306" expanded="true" signature="11867:12909" ph="{...}" />
-                <marker date="1539342410306" expanded="true" signature="13257:14076" ph="{...}" />
-                <marker date="1539342410306" expanded="true" signature="14146:14643" ph="{...}" />
-                <marker date="1539342410306" expanded="true" signature="14721:15450" ph="{...}" />
-                <marker date="1539342410306" expanded="true" signature="15552:16000" ph="{...}" />
-                <marker date="1539342410306" expanded="true" signature="16124:16700" ph="{...}" />
-                <marker date="1539342410306" expanded="true" signature="16994:17242" ph="{...}" />
-                <marker date="1539342410306" expanded="true" signature="17308:17618" ph="{...}" />
-                <marker date="1539342410306" expanded="true" signature="18073:18360" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="generatorConfig.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/generatorConfig.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="60" column="32" lean-forward="false" selection-start-line="60" selection-start-column="32" selection-end-line="60" selection-end-column="32" />
+            <state relative-caret-position="162">
+              <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="generator.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/generator.properties">
+      <file leaf-file-name="MyShiroRealm.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/config/MyShiroRealm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="383">
+              <caret line="34" column="29" lean-forward="true" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#1949#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MybatisConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/config/MybatisConfig.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <caret line="17" column="12" lean-forward="false" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -160,8 +145,6 @@
       <find>session</find>
       <find>mybatis</find>
       <find>dataSource</find>
-      <find>mybatis-spring-boot-starter</find>
-      <find>spring-boot-starter-web</find>
       <find>mysql-connector-java</find>
       <find>druid-spring-boot-starter</find>
       <find>druid</find>
@@ -172,6 +155,14 @@
       <find>JdbcRealm</find>
       <find>com.hdd.shiro_demo.dao</find>
       <find>selectByNameAndPassword</find>
+      <find>org.apache.shiro</find>
+      <find>spring-boot-starter-web</find>
+      <find>mybatis-spring-boot-starter</find>
+      <find>addMappedStatement:275, MapperBuilderAssistant</find>
+      <find>updateByPrimaryKey</find>
+      <find>getAuthenticationInfo</find>
+      <find>@Re</find>
+      <find>@Repository</find>
     </findStrings>
     <replaceStrings>
       <replace>//</replace>
@@ -198,21 +189,25 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/service/MyToken.java" />
         <option value="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/service/ShiroConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/service/MyShiroRealm.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/dao/UPermissionMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/dao/URoleMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/dao/URolePermissionMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/dao/UUserRoleMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/controller/LoginController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/ShiroDemoApplication.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/UPermissionMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/URoleMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/URolePermissionMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/UUserRoleMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/dao/UUserMapper.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/UUserMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/service/ShiroConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/dao/UUserMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/service/AuthorizationRealm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/service/MyShiroRealm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/config/ShiroConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/config/MyShiroRealm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/config/AuthorizationRealm.java" />
       </list>
     </option>
   </component>
@@ -249,10 +244,10 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="425" />
+    <option name="y" value="-18" />
+    <option name="width" value="960" />
+    <option name="height" value="963" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -349,6 +344,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="shiro_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shiro_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shiro_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro_demo" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -374,15 +378,6 @@
               <item name="shiro_demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="shiro_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shiro_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shiro_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -397,10 +392,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -579,7 +574,8 @@
       <workItem from="1539309968361" duration="2376000" />
       <workItem from="1539340838322" duration="2172000" />
       <workItem from="1539584671725" duration="12803000" />
-      <workItem from="1539605664300" duration="3878000" />
+      <workItem from="1539605664300" duration="5030000" />
+      <workItem from="1539759448326" duration="6200000" />
     </task>
     <task id="LOCAL-00001" summary="修改bug">
       <created>1539608448569</created>
@@ -588,11 +584,18 @@
       <option name="project" value="LOCAL" />
       <updated>1539608448569</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="使用genertor 生成的dao xml model&#10; 之前以为是不能注解和xml混合着用&#10; 后来发现是可以的&#10; 查询出错的原因是。在application.propertys中 一行的末尾 加上了注释 这样导致xml映射没有被扫描">
+      <created>1539655059854</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1539655059854</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44119000" />
+    <option name="totallyTimeSpent" value="51471000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -607,9 +610,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4054348" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23586957" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32826087" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11195652" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -618,7 +621,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2217484" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2675906" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -672,7 +675,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="修改bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改bug" />
+    <MESSAGE value="使用genertor 生成的dao xml model&#10; 之前以为是不能注解和xml混合着用&#10; 后来发现是可以的&#10; 查询出错的原因是。在application.propertys中 一行的末尾 加上了注释 这样导致xml映射没有被扫描" />
+    <option name="LAST_COMMIT_MESSAGE" value="使用genertor 生成的dao xml model&#10; 之前以为是不能注解和xml混合着用&#10; 后来发现是可以的&#10; 查询出错的原因是。在application.propertys中 一行的末尾 加上了注释 这样导致xml映射没有被扫描" />
   </component>
   <component name="WindowStateProjectService">
     <state width="192" height="319" key="Git.Branch.Popup" />
@@ -683,14 +687,14 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/service/MyShiroRealm.java</url>
-          <line>44</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/config/MyShiroRealm.java</url>
+          <line>50</line>
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/service/ShiroConfig.java</url>
-          <line>38</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/config/ShiroConfig.java</url>
+          <line>39</line>
           <properties />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
@@ -707,20 +711,14 @@
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/service/ShiroConfig.java</url>
-          <line>50</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/config/ShiroConfig.java</url>
+          <line>51</line>
           <properties />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/controller/LoginController.java</url>
-          <line>24</line>
-          <properties />
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/service/MyShiroRealm.java</url>
-          <line>48</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/config/MyShiroRealm.java</url>
+          <line>55</line>
           <properties />
           <option name="timeStamp" value="11" />
         </line-breakpoint>
@@ -742,13 +740,30 @@
           <properties />
           <option name="timeStamp" value="19" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/config/AuthorizationRealm.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/config/AuthorizationRealm.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="20" />
+      <option name="time" value="22" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>uUserMapper.selectByNameAndPassword(useaName, password)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>uUserMapper.selectByNameAndPassword(token.getUserName(),token.getPassword()    )</expression-string>
         <language-id>JAVA</language-id>
@@ -767,166 +782,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/dao/BaseMapper.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/dao/BaseDaoSuperImpl.java" />
-    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2-sources.jar!/org/apache/shiro/subject/Subject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="332" column="9" lean-forward="false" selection-start-line="332" selection-start-column="9" selection-end-line="332" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml" />
-    <entry file="jar://$USER_HOME$/.m2/repository/org/mybatis/mybatis-spring/1.2.2/mybatis-spring-1.2.2.jar!/org/mybatis/spring/annotation/MapperScan.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="35" column="31" lean-forward="false" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/mybatis/spring/boot/mybatis-spring-boot-autoconfigure/1.3.1/mybatis-spring-boot-autoconfigure-1.3.1.jar!/org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="79" column="26" lean-forward="false" selection-start-line="79" selection-start-column="26" selection-end-line="79" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/mybatis/mybatis/3.4.5/mybatis-3.4.5.jar!/org/apache/ibatis/session/SqlSessionFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="34" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/mybatis/mybatis/3.4.5/mybatis-3.4.5.jar!/org/apache/ibatis/session/defaults/DefaultSqlSessionFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="22" column="66" lean-forward="false" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/mybatis/mybatis-spring/1.2.2/mybatis-spring-1.2.2.jar!/org/mybatis/spring/SqlSessionFactoryBean.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="39" column="13" lean-forward="false" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
-          <folding>
-            <marker date="1531798648680" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1531798648680" expanded="false" signature="142:1678" ph="..." />
-            <marker date="1531798648680" expanded="true" signature="2785:2792" ph="{}" />
-            <marker date="1531798648680" expanded="false" signature="2855:2866" ph=" { " />
-            <marker date="1531798648680" expanded="false" signature="2901:2907" ph=" }" />
-            <marker date="1531798648680" expanded="true" signature="2992:3057" ph="{...}" />
-            <marker date="1531798648680" expanded="false" signature="3112:3123" ph=" { " />
-            <marker date="1531798648680" expanded="false" signature="3154:3160" ph=" }" />
-            <marker date="1531798648680" expanded="true" signature="3239:3300" ph="{...}" />
-            <marker date="1531798648680" expanded="false" signature="3351:3362" ph=" { " />
-            <marker date="1531798648680" expanded="false" signature="3385:3391" ph=" }" />
-            <marker date="1531798648680" expanded="false" signature="3457:3468" ph=" { " />
-            <marker date="1531798648680" expanded="false" signature="3513:3519" ph=" }" />
-            <marker date="1531798648680" expanded="true" signature="3592:3657" ph="{...}" />
-            <marker date="1531798648680" expanded="false" signature="3725:3736" ph=" { " />
-            <marker date="1531798648680" expanded="false" signature="3783:3789" ph=" }" />
-            <marker date="1531798648680" expanded="false" signature="3853:3864" ph=" { " />
-            <marker date="1531798648680" expanded="false" signature="3897:3903" ph=" }" />
-            <marker date="1531798648680" expanded="false" signature="3959:3970" ph=" { " />
-            <marker date="1531798648680" expanded="false" signature="4001:4007" ph=" }" />
-            <marker date="1531798648680" expanded="false" signature="4054:4065" ph=" { " />
-            <marker date="1531798648680" expanded="false" signature="4090:4096" ph=" }" />
-            <marker date="1531798648680" expanded="false" signature="4156:4167" ph=" { " />
-            <marker date="1531798648680" expanded="false" signature="4204:4210" ph=" }" />
-            <marker date="1531798648680" expanded="false" signature="4274:4285" ph=" { " />
-            <marker date="1531798648680" expanded="false" signature="4324:4330" ph=" }" />
-            <marker date="1531798648680" expanded="true" signature="4415:4490" ph="{...}" />
-            <marker date="1531798648680" expanded="true" signature="4545:4790" ph="{...}" />
-            <marker date="1531798648680" expanded="true" signature="4887:4960" ph="{...}" />
-            <marker date="1531798648680" expanded="true" signature="5039:5100" ph="{...}" />
-            <marker date="1531798648680" expanded="false" signature="5152:5163" ph=" { " />
-            <marker date="1531798648680" expanded="false" signature="5194:5200" ph=" }" />
-            <marker date="1531798648680" expanded="true" signature="5256:5511" ph="{...}" />
-            <marker date="1531798648680" expanded="true" signature="5589:11761" ph="{...}" />
-            <marker date="1531798648680" expanded="true" signature="11821:11963" ph="{...}" />
-            <marker date="1531798648680" expanded="true" signature="12027:12143" ph="{...}" />
-            <marker date="1531798648680" expanded="false" signature="12177:12188" ph=" { " />
-            <marker date="1531798648680" expanded="false" signature="12200:12206" ph=" }" />
-            <marker date="1531798648680" expanded="true" signature="12267:12437" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/com/alibaba/druid/1.1.0/druid-1.1.0.jar!/com/alibaba/druid/pool/DruidDataSource.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="85" column="13" lean-forward="false" selection-start-line="85" selection-start-column="13" selection-end-line="85" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.m2/repository/org/springframework/boot/spring-boot-starter-parent/1.5.10.RELEASE/spring-boot-starter-parent-1.5.10.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5535">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.m2/repository/com/alibaba/druid-spring-boot-starter/1.1.0/druid-spring-boot-starter-1.1.0.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2754">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-693">
-          <caret line="103" column="47" lean-forward="false" selection-start-line="103" selection-start-column="47" selection-end-line="103" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2-sources.jar!/org/apache/shiro/realm/AuthorizingRealm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="54" column="22" lean-forward="false" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/shiro/shiro-all/1.2.3/shiro-all-1.2.3.jar!/org/apache/shiro/spring/web/ShiroFilterFactoryBean.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="91" column="16" lean-forward="false" selection-start-line="91" selection-start-column="16" selection-end-line="91" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/domain/UUserExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-297">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/mybatis/mybatis/3.4.4/mybatis-3.4.4.jar!/org/apache/ibatis/binding/MapperMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="37" column="18" lean-forward="false" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/mybatis/mybatis/3.4.4/mybatis-3.4.4.jar!/org/apache/ibatis/session/Configuration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="762" column="0" lean-forward="false" selection-start-line="762" selection-start-column="0" selection-end-line="762" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/shiro/shiro-all/1.2.3/shiro-all-1.2.3.jar!/org/apache/shiro/authc/AbstractAuthenticator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="79" column="9" lean-forward="false" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.m2/repository/org/mybatis/mybatis/3.4.4/mybatis-3.4.4.jar!/org/apache/ibatis/binding/MapperProxy.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -934,88 +789,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/service/MybatisConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="17" column="12" lean-forward="false" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/service/MyToken.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="13" column="28" lean-forward="false" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/dao/UPermissionMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="122" column="49" lean-forward="false" selection-start-line="14" selection-start-column="2" selection-end-line="122" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/dao/URoleMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="116" column="13" lean-forward="true" selection-start-line="116" selection-start-column="13" selection-end-line="116" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/dao/UUserRoleMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="67" column="105" lean-forward="true" selection-start-line="67" selection-start-column="105" selection-end-line="67" selection-end-column="105" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.m2/repository/org/apache/shiro/shiro-all/1.2.3/shiro-all-1.2.3.jar!/org/apache/shiro/realm/jdbc/JdbcRealm.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
           <caret line="34" column="40" lean-forward="false" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
-          <folding>
-            <marker date="1531798696823" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1531798696823" expanded="false" signature="151:1227" ph="..." />
-            <marker date="1531798696823" expanded="false" signature="1932:1977" ph="select passw... users" />
-            <marker date="1531798696823" expanded="false" signature="2019:2070" ph="select role_... user_roles" />
-            <marker date="1531798696823" expanded="false" signature="2114:2174" ph="select permi... roles_permissions" />
-            <marker date="1531798696823" expanded="false" signature="2301:2312" ph=" { " />
-            <marker date="1531798696823" expanded="false" signature="2357:2363" ph=" }" />
-            <marker date="1531798696823" expanded="false" signature="2417:2428" ph=" { " />
-            <marker date="1531798696823" expanded="false" signature="2457:2463" ph=" }" />
-            <marker date="1531798696823" expanded="false" signature="2531:2542" ph=" { " />
-            <marker date="1531798696823" expanded="false" signature="2589:2595" ph=" }" />
-            <marker date="1531798696823" expanded="false" signature="2653:2664" ph=" { " />
-            <marker date="1531798696823" expanded="false" signature="2701:2707" ph=" }" />
-            <marker date="1531798696823" expanded="false" signature="2769:2780" ph=" { " />
-            <marker date="1531798696823" expanded="false" signature="2821:2827" ph=" }" />
-            <marker date="1531798696823" expanded="false" signature="2907:2980" ph="{...}" />
-            <marker date="1531798696823" expanded="false" signature="3042:3338" ph="{...}" />
-            <marker date="1531798696823" expanded="true" signature="3455:5648" ph="{...}" />
-            <marker date="1531798696823" expanded="false" signature="5744:6912" ph="{...}" />
-            <marker date="1531798696823" expanded="false" signature="7001:8227" ph="{...}" />
-            <marker date="1531798696823" expanded="false" signature="8329:9109" ph="{...}" />
-            <marker date="1531798696823" expanded="false" signature="9236:10097" ph="{...}" />
-            <marker date="1531798696823" expanded="false" signature="10151:10162" ph=" { " />
-            <marker date="1531798696823" expanded="false" signature="10178:10184" ph=" }" />
-            <marker date="1531798696823" expanded="false" signature="10219:10333" ph="{...}" />
-            <marker date="1531798696823" expanded="false" signature="10316:10327" ph="{}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1027,106 +804,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/shiro/shiro-all/1.2.3/shiro-all-1.2.3.jar!/org/apache/shiro/realm/Realm.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/shiro/shiro-all/1.2.3/shiro-all-1.2.3.jar!/org/apache/shiro/realm/CachingRealm.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="18" column="48" lean-forward="false" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/shiro/shiro-all/1.2.3/shiro-all-1.2.3.jar!/org/apache/shiro/realm/AuthenticatingRealm.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="24" column="54" lean-forward="false" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/shiro/shiro-all/1.2.3/shiro-all-1.2.3.jar!/org/apache/shiro/realm/AuthorizingRealm.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-891">
-          <caret line="36" column="47" lean-forward="true" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
-          <folding>
-            <marker date="1531798696823" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1531798696823" expanded="false" signature="146:1343" ph="..." />
-            <marker date="1531798696823" expanded="false" signature="2058:2069" ph=" { " />
-            <marker date="1531798696823" expanded="false" signature="2120:2126" ph=" }" />
-            <marker date="1531798696823" expanded="false" signature="2182:2193" ph=" { " />
-            <marker date="1531798696823" expanded="false" signature="2238:2244" ph=" }" />
-            <marker date="1531798696823" expanded="false" signature="2301:2312" ph=" { " />
-            <marker date="1531798696823" expanded="false" signature="2346:2352" ph=" }" />
-            <marker date="1531798696823" expanded="true" signature="2437:3038" ph="{...}" />
-            <marker date="1531798696823" expanded="true" signature="3077:3351" ph="{...}" />
-            <marker date="1531798696823" expanded="true" signature="3444:3505" ph="{...}" />
-            <marker date="1531798696823" expanded="false" signature="3574:3585" ph=" { " />
-            <marker date="1531798696823" expanded="false" signature="3616:3622" ph=" }" />
-            <marker date="1531798696823" expanded="false" signature="3669:3680" ph=" { " />
-            <marker date="1531798696823" expanded="false" signature="3715:3721" ph=" }" />
-            <marker date="1531798696823" expanded="true" signature="3796:3865" ph="{...}" />
-            <marker date="1531798696823" expanded="true" signature="3918:4001" ph="{...}" />
-            <marker date="1531798696823" expanded="true" signature="4088:4265" ph="{...}" />
-            <marker date="1531798696823" expanded="false" signature="4320:4331" ph=" { " />
-            <marker date="1531798696823" expanded="false" signature="4362:4368" ph=" }" />
-            <marker date="1531798696823" expanded="true" signature="4447:4671" ph="{...}" />
-            <marker date="1531798696823" expanded="false" signature="4734:4745" ph=" { " />
-            <marker date="1531798696823" expanded="false" signature="4780:4786" ph=" }" />
-            <marker date="1531798696823" expanded="true" signature="4877:4946" ph="{...}" />
-            <marker date="1531798696823" expanded="true" signature="4976:5054" ph="{...}" />
-            <marker date="1531798696823" expanded="true" signature="5098:5190" ph="{...}" />
-            <marker date="1531798696823" expanded="true" signature="5265:6168" ph="{...}" />
-            <marker date="1531798696823" expanded="true" signature="6248:6490" ph="{...}" />
-            <marker date="1531798696823" expanded="true" signature="6577:8166" ph="{...}" />
-            <marker date="1531798696823" expanded="false" signature="8245:8256" ph=" { " />
-            <marker date="1531798696823" expanded="false" signature="8274:8280" ph=" }" />
-            <marker date="1531798696823" expanded="true" signature="8362:8660" ph="{...}" />
-            <marker date="1531798696823" expanded="true" signature="8828:9571" ph="{...}" />
-            <marker date="1531798696823" expanded="true" signature="9659:10287" ph="{...}" />
-            <marker date="1531798696823" expanded="true" signature="10377:11075" ph="{...}" />
-            <marker date="1531798696823" expanded="true" signature="11159:11297" ph="{...}" />
-            <marker date="1531798696823" expanded="true" signature="11385:11515" ph="{...}" />
-            <marker date="1531798696823" expanded="true" signature="11596:12000" ph="{...}" />
-            <marker date="1531798696823" expanded="true" signature="12097:12514" ph="{...}" />
-            <marker date="1531798696823" expanded="true" signature="12611:12742" ph="{...}" />
-            <marker date="1531798696823" expanded="true" signature="12834:13317" ph="{...}" />
-            <marker date="1531798696823" expanded="true" signature="13415:13993" ph="{...}" />
-            <marker date="1531798696823" expanded="true" signature="14096:14245" ph="{...}" />
-            <marker date="1531798696823" expanded="true" signature="14344:14699" ph="{...}" />
-            <marker date="1531798696823" expanded="true" signature="14821:14963" ph="{...}" />
-            <marker date="1531798696823" expanded="true" signature="15081:15207" ph="{...}" />
-            <marker date="1531798696823" expanded="true" signature="15291:15480" ph="{...}" />
-            <marker date="1531798696823" expanded="true" signature="15607:15921" ph="{...}" />
-            <marker date="1531798696823" expanded="true" signature="16053:16181" ph="{...}" />
-            <marker date="1531798696823" expanded="true" signature="16279:16558" ph="{...}" />
-            <marker date="1531798696823" expanded="true" signature="16641:16770" ph="{...}" />
-            <marker date="1531798696823" expanded="true" signature="16849:16956" ph="{...}" />
-            <marker date="1531798696823" expanded="true" signature="17049:17342" ph="{...}" />
-            <marker date="1531798696823" expanded="true" signature="17431:17939" ph="{...}" />
-            <marker date="1531798696823" expanded="true" signature="18039:18189" ph="{...}" />
-            <marker date="1531798696823" expanded="true" signature="18283:18652" ph="{...}" />
-            <marker date="1531798696823" expanded="true" signature="18754:18868" ph="{...}" />
-            <marker date="1531798696823" expanded="true" signature="18936:19111" ph="{...}" />
-            <marker date="1531798696823" expanded="true" signature="19227:19343" ph="{...}" />
-            <marker date="1531798696823" expanded="true" signature="19450:19548" ph="{...}" />
-            <marker date="1531798696823" expanded="true" signature="19630:19891" ph="{...}" />
-            <marker date="1531798696823" expanded="true" signature="19957:20059" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.m2/repository/org/mybatis/spring/boot/mybatis-spring-boot-autoconfigure/1.3.0/mybatis-spring-boot-autoconfigure-1.3.0-sources.jar!/org/mybatis/spring/boot/autoconfigure/MybatisProperties.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1458">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1134,7 +815,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
           <caret line="25" column="34" lean-forward="false" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1142,7 +822,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="52" column="13" lean-forward="false" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1154,56 +833,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/service/ShiroConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="49" column="26" lean-forward="true" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/service/MyShiroRealm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="48" column="56" lean-forward="true" selection-start-line="48" selection-start-column="56" selection-end-line="48" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/ShiroDemoApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
           <caret line="21" column="64" lean-forward="true" selection-start-line="21" selection-start-column="64" selection-end-line="21" selection-end-column="64" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/dao/URolePermissionMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="54" column="54" lean-forward="true" selection-start-line="54" selection-start-column="54" selection-end-line="54" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UPermissionMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-          <folding>
-            <marker date="1539654618150" expanded="true" signature="10619:10643" ph="delete from u_permission... " />
-            <marker date="1539654618150" expanded="true" signature="11817:11850" ph="select count... u_permission" />
-            <marker date="1539654618150" expanded="true" signature="12807:12958" ph="update u_permission... " />
-            <marker date="1539654618150" expanded="true" signature="13321:13563" ph="update u_permission... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1232,10 +866,143 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/domain/UUser.java">
+    <entry file="jar://$USER_HOME$/.m2/repository/org/mybatis/mybatis-spring/1.3.1/mybatis-spring-1.3.1.jar!/org/mybatis/spring/SqlSessionFactoryBean.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-621">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="497">
+          <caret line="231" column="0" lean-forward="true" selection-start-line="231" selection-start-column="0" selection-end-line="231" selection-end-column="0" />
+          <folding>
+            <marker date="1530520452193" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1530520452193" expanded="false" signature="142:1749" ph="..." />
+            <marker date="1530520452193" expanded="true" signature="2960:2967" ph="{}" />
+            <marker date="1530520452193" expanded="false" signature="3030:3041" ph=" { " />
+            <marker date="1530520452193" expanded="false" signature="3076:3082" ph=" }" />
+            <marker date="1530520452193" expanded="true" signature="3167:3232" ph="{...}" />
+            <marker date="1530520452193" expanded="false" signature="3287:3298" ph=" { " />
+            <marker date="1530520452193" expanded="false" signature="3329:3335" ph=" }" />
+            <marker date="1530520452193" expanded="true" signature="3414:3475" ph="{...}" />
+            <marker date="1530520452193" expanded="false" signature="3517:3528" ph=" { " />
+            <marker date="1530520452193" expanded="false" signature="3544:3550" ph=" }" />
+            <marker date="1530520452193" expanded="false" signature="3600:3611" ph=" { " />
+            <marker date="1530520452193" expanded="false" signature="3626:3632" ph=" }" />
+            <marker date="1530520452193" expanded="false" signature="3661:3672" ph=" { " />
+            <marker date="1530520452193" expanded="false" signature="3690:3696" ph=" }" />
+            <marker date="1530520452193" expanded="false" signature="3735:3746" ph=" { " />
+            <marker date="1530520452193" expanded="false" signature="3765:3771" ph=" }" />
+            <marker date="1530520452193" expanded="false" signature="3822:3833" ph=" { " />
+            <marker date="1530520452193" expanded="false" signature="3856:3862" ph=" }" />
+            <marker date="1530520452193" expanded="false" signature="3928:3939" ph=" { " />
+            <marker date="1530520452193" expanded="false" signature="3984:3990" ph=" }" />
+            <marker date="1530520452193" expanded="true" signature="4063:4128" ph="{...}" />
+            <marker date="1530520452193" expanded="false" signature="4196:4207" ph=" { " />
+            <marker date="1530520452193" expanded="false" signature="4254:4260" ph=" }" />
+            <marker date="1530520452193" expanded="false" signature="4324:4335" ph=" { " />
+            <marker date="1530520452193" expanded="false" signature="4368:4374" ph=" }" />
+            <marker date="1530520452193" expanded="false" signature="4430:4441" ph=" { " />
+            <marker date="1530520452193" expanded="false" signature="4472:4478" ph=" }" />
+            <marker date="1530520452193" expanded="false" signature="4525:4536" ph=" { " />
+            <marker date="1530520452193" expanded="false" signature="4561:4567" ph=" }" />
+            <marker date="1530520452193" expanded="false" signature="4627:4638" ph=" { " />
+            <marker date="1530520452193" expanded="false" signature="4675:4681" ph=" }" />
+            <marker date="1530520452193" expanded="false" signature="4744:4755" ph=" { " />
+            <marker date="1530520452193" expanded="false" signature="4790:4796" ph=" }" />
+            <marker date="1530520452193" expanded="false" signature="4860:4871" ph=" { " />
+            <marker date="1530520452193" expanded="false" signature="4910:4916" ph=" }" />
+            <marker date="1530520452193" expanded="true" signature="5001:5076" ph="{...}" />
+            <marker date="1530520452193" expanded="true" signature="5131:5376" ph="{...}" />
+            <marker date="1530520452193" expanded="true" signature="5473:5546" ph="{...}" />
+            <marker date="1530520452193" expanded="true" signature="5625:5686" ph="{...}" />
+            <marker date="1530520452193" expanded="false" signature="5738:5749" ph=" { " />
+            <marker date="1530520452193" expanded="false" signature="5780:5786" ph=" }" />
+            <marker date="1530520452193" expanded="true" signature="5842:6320" ph="{...}" />
+            <marker date="1530520452193" expanded="true" signature="6398:13234" ph="{...}" />
+            <marker date="1530520452193" expanded="true" signature="13294:13436" ph="{...}" />
+            <marker date="1530520452193" expanded="true" signature="13500:13616" ph="{...}" />
+            <marker date="1530520452193" expanded="false" signature="13650:13661" ph=" { " />
+            <marker date="1530520452193" expanded="false" signature="13673:13679" ph=" }" />
+            <marker date="1530520452193" expanded="true" signature="13740:13910" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.m2/repository/org/mybatis/spring/boot/mybatis-spring-boot-starter/1.3.0/mybatis-spring-boot-starter-1.3.0.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-486">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="101" column="20" lean-forward="false" selection-start-line="101" selection-start-column="20" selection-end-line="101" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/8.5.27/tomcat-embed-core-8.5.27.jar!/javax/servlet/Filter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <marker date="1530520478654" expanded="false" signature="0:104" ph="/.../" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/1.5.10.RELEASE/spring-boot-autoconfigure-1.5.10.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/jersey/JerseyProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="92" column="24" lean-forward="false" selection-start-line="92" selection-start-column="24" selection-end-line="92" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/8.5.27/tomcat-embed-core-8.5.27-sources.jar!/javax/servlet/Filter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1270">
+          <caret line="45" column="17" lean-forward="false" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-web/4.3.14.RELEASE/spring-web-4.3.14.RELEASE-sources.jar!/org/springframework/web/filter/CompositeFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="96" column="15" lean-forward="false" selection-start-line="96" selection-start-column="15" selection-end-line="96" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hdd/shiro_demo/domain/UUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UPermissionMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+          <folding>
+            <marker date="1539654618150" expanded="true" signature="4140:4164" ph="delete from u_permission... " />
+            <marker date="1539654618150" expanded="true" signature="5306:5339" ph="select count... u_permission" />
+            <marker date="1539654618150" expanded="true" signature="6264:6415" ph="update u_permission... " />
+            <marker date="1539654618150" expanded="true" signature="6762:7004" ph="update u_permission... " />
+            <marker date="1539654618150" expanded="true" signature="10619:10643" ph="delete from u_permission... " />
+            <marker date="1539654618150" expanded="true" signature="11817:11850" ph="select count... u_permission" />
+            <marker date="1539654618150" expanded="true" signature="12807:12958" ph="update u_permission... " />
+            <marker date="1539654618150" expanded="true" signature="13321:13563" ph="update u_permission... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="60" column="32" lean-forward="false" selection-start-line="60" selection-start-column="32" selection-end-line="60" selection-end-column="32" />
           <folding />
         </state>
       </provider>
@@ -1248,61 +1015,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/generatorConfig.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="60" column="32" lean-forward="false" selection-start-line="60" selection-start-column="32" selection-end-line="60" selection-end-column="32" />
+        <state relative-caret-position="216">
+          <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/mybatis/mybatis/3.4.4/mybatis-3.4.4.jar!/org/apache/ibatis/builder/MapperBuilderAssistant.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/domain/URolePermission.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="192" column="0" lean-forward="false" selection-start-line="192" selection-start-column="0" selection-end-line="192" selection-end-column="0" />
-          <folding>
-            <marker date="1539342410306" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1539342410306" expanded="false" signature="149:1579" ph="..." />
-            <marker date="1539342410306" expanded="true" signature="1858:1981" ph="{...}" />
-            <marker date="1539342410306" expanded="false" signature="2022:2033" ph=" { " />
-            <marker date="1539342410306" expanded="false" signature="2062:2068" ph=" }" />
-            <marker date="1539342410306" expanded="true" signature="2131:2611" ph="{...}" />
-            <marker date="1539342410306" expanded="true" signature="2687:3289" ph="{...}" />
-            <marker date="1539342410306" expanded="true" signature="3338:4158" ph="{...}" />
-            <marker date="1539342410306" expanded="true" signature="4350:4777" ph="{...}" />
-            <marker date="1539342410306" expanded="true" signature="4897:5161" ph="{...}" />
-            <marker date="1539342410306" expanded="true" signature="5406:5933" ph="{...}" />
-            <marker date="1539342410306" expanded="true" signature="6096:7899" ph="{...}" />
-            <marker date="1539342410306" expanded="true" signature="8102:8912" ph="{...}" />
-            <marker date="1539342410306" expanded="true" signature="9386:10763" ph="{...}" />
-            <marker date="1539342410306" expanded="false" signature="10822:10833" ph=" { " />
-            <marker date="1539342410306" expanded="false" signature="10877:10883" ph=" }" />
-            <marker date="1539342410306" expanded="true" signature="11009:11755" ph="{...}" />
-            <marker date="1539342410306" expanded="true" signature="11867:12909" ph="{...}" />
-            <marker date="1539342410306" expanded="true" signature="13257:14076" ph="{...}" />
-            <marker date="1539342410306" expanded="true" signature="14146:14643" ph="{...}" />
-            <marker date="1539342410306" expanded="true" signature="14721:15450" ph="{...}" />
-            <marker date="1539342410306" expanded="true" signature="15552:16000" ph="{...}" />
-            <marker date="1539342410306" expanded="true" signature="16124:16700" ph="{...}" />
-            <marker date="1539342410306" expanded="true" signature="16994:17242" ph="{...}" />
-            <marker date="1539342410306" expanded="true" signature="17308:17618" ph="{...}" />
-            <marker date="1539342410306" expanded="true" signature="18073:18360" ph="{...}" />
-          </folding>
+        <state relative-caret-position="-108">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/dao/UUserMapper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/dao/UUserRoleMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="132" column="39" lean-forward="false" selection-start-line="132" selection-start-column="16" selection-end-line="132" selection-end-column="39" />
+        <state relative-caret-position="402">
+          <caret line="43" column="38" lean-forward="true" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UUserRoleMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="176" column="8" lean-forward="false" selection-start-line="176" selection-start-column="8" selection-end-line="176" selection-end-column="8" />
+        <state relative-caret-position="481">
+          <caret line="168" column="15" lean-forward="true" selection-start-line="168" selection-start-column="15" selection-end-line="168" selection-end-column="15" />
           <folding>
             <marker date="1539654618174" expanded="true" signature="4067:4090" ph="delete from u_user_role... " />
             <marker date="1539654618174" expanded="true" signature="5099:5131" ph="select count... u_user_role" />
@@ -1314,15 +1054,328 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/shiro/shiro-all/1.2.3/shiro-all-1.2.3.jar!/org/apache/shiro/subject/support/DelegatingSubject.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="178" column="16" lean-forward="false" selection-start-line="178" selection-start-column="16" selection-end-line="178" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/shiro/shiro-all/1.2.3/shiro-all-1.2.3.jar!/org/apache/shiro/subject/Subject.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="59" column="9" lean-forward="false" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/domain/UUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UUserMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="445" column="12" lean-forward="true" selection-start-line="445" selection-start-column="12" selection-end-line="445" selection-end-column="12" />
+        <state relative-caret-position="345">
+          <caret line="443" column="51" lean-forward="true" selection-start-line="443" selection-start-column="51" selection-end-line="443" selection-end-column="51" />
           <folding>
             <marker date="1539654780766" expanded="true" signature="4468:4486" ph="delete from u_user... " />
             <marker date="1539654780766" expanded="true" signature="6244:6271" ph="select count... u_user" />
             <marker date="1539654780766" expanded="true" signature="7657:8038" ph="update u_user... " />
             <marker date="1539654780766" expanded="true" signature="8379:9026" ph="update u_user... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2-sources.jar!/org/apache/shiro/realm/AuthorizingRealm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="54" column="52" lean-forward="false" selection-start-line="54" selection-start-column="52" selection-end-line="54" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2-sources.jar!/org/apache/shiro/realm/Realm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="62" column="17" lean-forward="false" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
+          <folding>
+            <element signature="docComment;class#Realm#0" expanded="false" />
+            <element signature="docComment;method#getName#0;class#Realm#0" expanded="false" />
+            <element signature="docComment;method#supports#0;class#Realm#0" expanded="false" />
+            <element signature="docComment;method#getAuthenticationInfo#0;class#Realm#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2-sources.jar!/org/apache/shiro/realm/CachingRealm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="47" column="50" lean-forward="false" selection-start-line="47" selection-start-column="50" selection-end-line="47" selection-end-column="50" />
+          <folding>
+            <element signature="docComment;class#CachingRealm#0" expanded="false" />
+            <element signature="docComment;method#CachingRealm#0;class#CachingRealm#0" expanded="false" />
+            <element signature="method#CachingRealm#0;class#CachingRealm#0" expanded="false" />
+            <element signature="docComment;method#getCacheManager#0;class#CachingRealm#0" expanded="false" />
+            <element signature="docComment;method#setCacheManager#0;class#CachingRealm#0" expanded="false" />
+            <element signature="method#setCacheManager#0;class#CachingRealm#0" expanded="false" />
+            <element signature="docComment;method#isCachingEnabled#0;class#CachingRealm#0" expanded="false" />
+            <element signature="docComment;method#setCachingEnabled#0;class#CachingRealm#0" expanded="false" />
+            <element signature="docComment;method#afterCacheManagerSet#0;class#CachingRealm#0" expanded="false" />
+            <element signature="method#afterCacheManagerSet#0;class#CachingRealm#0" expanded="false" />
+            <element signature="docComment;method#onLogout#0;class#CachingRealm#0" expanded="false" />
+            <element signature="docComment;method#clearCache#0;class#CachingRealm#0" expanded="false" />
+            <element signature="method#clearCache#0;class#CachingRealm#0" expanded="false" />
+            <element signature="docComment;method#doClearCache#0;class#CachingRealm#0" expanded="false" />
+            <element signature="method#doClearCache#0;class#CachingRealm#0" expanded="false" />
+            <element signature="docComment;method#getAvailablePrincipal#0;class#CachingRealm#0" expanded="false" />
+            <element signature="method#getAvailablePrincipal#0;class#CachingRealm#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2-sources.jar!/org/apache/shiro/realm/AuthenticatingRealm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="109" column="41" lean-forward="false" selection-start-line="109" selection-start-column="22" selection-end-line="109" selection-end-column="41" />
+          <folding>
+            <element signature="docComment;class#AuthenticatingRealm#0" expanded="false" />
+            <element signature="docComment;field#DEFAULT_AUTHORIZATION_CACHE_SUFFIX#0;class#AuthenticatingRealm#0" expanded="false" />
+            <element signature="docComment;field#credentialsMatcher#0;class#AuthenticatingRealm#0" expanded="false" />
+            <element signature="docComment;field#authenticationTokenClass#0;class#AuthenticatingRealm#0" expanded="false" />
+            <element signature="method#AuthenticatingRealm#3;class#AuthenticatingRealm#0" expanded="false" />
+            <element signature="e#8533#8640#0" expanded="false" />
+            <element signature="docComment;method#getCredentialsMatcher#0;class#AuthenticatingRealm#0" expanded="false" />
+            <element signature="docComment;method#setCredentialsMatcher#0;class#AuthenticatingRealm#0" expanded="false" />
+            <element signature="method#setCredentialsMatcher#0;class#AuthenticatingRealm#0" expanded="false" />
+            <element signature="docComment;method#getAuthenticationTokenClass#0;class#AuthenticatingRealm#0" expanded="false" />
+            <element signature="docComment;method#setAuthenticationTokenClass#0;class#AuthenticatingRealm#0" expanded="false" />
+            <element signature="method#setAuthenticationTokenClass#0;class#AuthenticatingRealm#0" expanded="false" />
+            <element signature="docComment;method#setAuthenticationCache#0;class#AuthenticatingRealm#0" expanded="false" />
+            <element signature="method#setAuthenticationCache#0;class#AuthenticatingRealm#0" expanded="false" />
+            <element signature="docComment;method#getAuthenticationCache#0;class#AuthenticatingRealm#0" expanded="false" />
+            <element signature="docComment;method#getAuthenticationCacheName#0;class#AuthenticatingRealm#0" expanded="false" />
+            <element signature="docComment;method#setAuthenticationCacheName#0;class#AuthenticatingRealm#0" expanded="false" />
+            <element signature="method#setAuthenticationCacheName#0;class#AuthenticatingRealm#0" expanded="false" />
+            <element signature="docComment;method#isAuthenticationCachingEnabled#0;class#AuthenticatingRealm#0" expanded="false" />
+            <element signature="docComment;method#setAuthenticationCachingEnabled#0;class#AuthenticatingRealm#0" expanded="false" />
+            <element signature="method#setAuthenticationCachingEnabled#0;class#AuthenticatingRealm#0" expanded="false" />
+            <element signature="method#setName#0;class#AuthenticatingRealm#0" expanded="false" />
+            <element signature="e#17338#17426#0" expanded="false" />
+            <element signature="docComment;method#supports#0;class#AuthenticatingRealm#0" expanded="false" />
+            <element signature="method#supports#0;class#AuthenticatingRealm#0" expanded="false" />
+            <element signature="docComment;method#init#0;class#AuthenticatingRealm#0" expanded="false" />
+            <element signature="method#init#0;class#AuthenticatingRealm#0" expanded="false" />
+            <element signature="docComment;method#onInit#0;class#AuthenticatingRealm#0" expanded="false" />
+            <element signature="method#onInit#0;class#AuthenticatingRealm#0" expanded="false" />
+            <element signature="docComment;method#afterCacheManagerSet#0;class#AuthenticatingRealm#0" expanded="false" />
+            <element signature="method#afterCacheManagerSet#0;class#AuthenticatingRealm#0" expanded="false" />
+            <element signature="docComment;method#getAvailableAuthenticationCache#0;class#AuthenticatingRealm#0" expanded="false" />
+            <element signature="method#getAvailableAuthenticationCache#0;class#AuthenticatingRealm#0" expanded="false" />
+            <element signature="docComment;method#getAuthenticationCacheLazy#0;class#AuthenticatingRealm#0" expanded="false" />
+            <element signature="method#getAuthenticationCacheLazy#0;class#AuthenticatingRealm#0" expanded="false" />
+            <element signature="docComment;method#getCachedAuthenticationInfo#0;class#AuthenticatingRealm#0" expanded="false" />
+            <element signature="method#getCachedAuthenticationInfo#0;class#AuthenticatingRealm#0" expanded="false" />
+            <element signature="docComment;method#cacheAuthenticationInfoIfPossible#0;class#AuthenticatingRealm#0" expanded="false" />
+            <element signature="method#cacheAuthenticationInfoIfPossible#0;class#AuthenticatingRealm#0" expanded="false" />
+            <element signature="docComment;method#isAuthenticationCachingEnabled#1;class#AuthenticatingRealm#0" expanded="false" />
+            <element signature="method#isAuthenticationCachingEnabled#1;class#AuthenticatingRealm#0" expanded="false" />
+            <element signature="docComment;method#getAuthenticationInfo#0;class#AuthenticatingRealm#0" expanded="false" />
+            <element signature="method#getAuthenticationInfo#0;class#AuthenticatingRealm#0" expanded="false" />
+            <element signature="docComment;method#assertCredentialsMatch#0;class#AuthenticatingRealm#0" expanded="false" />
+            <element signature="method#assertCredentialsMatch#0;class#AuthenticatingRealm#0" expanded="false" />
+            <element signature="docComment;method#getAuthenticationCacheKey#0;class#AuthenticatingRealm#0" expanded="false" />
+            <element signature="method#getAuthenticationCacheKey#0;class#AuthenticatingRealm#0" expanded="false" />
+            <element signature="docComment;method#getAuthenticationCacheKey#1;class#AuthenticatingRealm#0" expanded="false" />
+            <element signature="method#getAuthenticationCacheKey#1;class#AuthenticatingRealm#0" expanded="false" />
+            <element signature="docComment;method#doClearCache#0;class#AuthenticatingRealm#0" expanded="false" />
+            <element signature="method#doClearCache#0;class#AuthenticatingRealm#0" expanded="false" />
+            <element signature="docComment;method#clearCachedAuthenticationInfo#0;class#AuthenticatingRealm#0" expanded="false" />
+            <element signature="method#clearCachedAuthenticationInfo#0;class#AuthenticatingRealm#0" expanded="false" />
+            <element signature="docComment;method#doGetAuthenticationInfo#0;class#AuthenticatingRealm#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/shiro/shiro-all/1.2.3/shiro-all-1.2.3.jar!/org/apache/shiro/realm/Realm.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding>
+            <marker date="1531798696823" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1531798696823" expanded="false" signature="146:294" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/dao/URolePermissionMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="54" column="54" lean-forward="true" selection-start-line="54" selection-start-column="54" selection-end-line="54" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/dao/URoleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="116" column="13" lean-forward="true" selection-start-line="116" selection-start-column="13" selection-end-line="116" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/dao/UPermissionMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="122" column="47" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="122" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/dao/UUserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/shiro/shiro-all/1.2.3/shiro-all-1.2.3.jar!/org/apache/shiro/authc/AuthenticationToken.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/shiro/shiro-spring/1.3.2/shiro-spring-1.3.2.jar!/org/apache/shiro/spring/web/ShiroFilterFactoryBean.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="39" column="18" lean-forward="false" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
+          <folding>
+            <element signature="method#ShiroFilterFactoryBean#0;class#ShiroFilterFactoryBean#0" expanded="false" />
+            <element signature="method#setFilterChainDefinitionMap#0;class#ShiroFilterFactoryBean#0" expanded="false" />
+            <element signature="method#setFilterChainDefinitions#0;class#ShiroFilterFactoryBean#0" expanded="false" />
+            <element signature="method#getObject#0;class#ShiroFilterFactoryBean#0" expanded="false" />
+            <element signature="method#createFilterChainManager#0;class#ShiroFilterFactoryBean#0" expanded="false" />
+            <element signature="method#createInstance#0;class#ShiroFilterFactoryBean#0" expanded="false" />
+            <element signature="method#applyLoginUrlIfNecessary#0;class#ShiroFilterFactoryBean#0" expanded="false" />
+            <element signature="method#applySuccessUrlIfNecessary#0;class#ShiroFilterFactoryBean#0" expanded="false" />
+            <element signature="method#applyUnauthorizedUrlIfNecessary#0;class#ShiroFilterFactoryBean#0" expanded="false" />
+            <element signature="method#applyGlobalPropertiesIfNecessary#0;class#ShiroFilterFactoryBean#0" expanded="false" />
+            <element signature="method#postProcessBeforeInitialization#0;class#ShiroFilterFactoryBean#0" expanded="false" />
+            <element signature="method#postProcessAfterInitialization#0;class#ShiroFilterFactoryBean#0" expanded="false" />
+            <element signature="class#SpringShiroFilter#0;class#ShiroFilterFactoryBean#0" expanded="false" />
+            <element signature="method#SpringShiroFilter#0;class#SpringShiroFilter#0;class#ShiroFilterFactoryBean#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/shiro/shiro-all/1.2.3/shiro-all-1.2.3.jar!/org/apache/shiro/mgt/RealmSecurityManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="21" column="16" lean-forward="false" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/mybatis/mybatis/3.4.4/mybatis-3.4.4.jar!/org/apache/ibatis/builder/MapperBuilderAssistant.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="192" column="48" lean-forward="false" selection-start-line="192" selection-start-column="48" selection-end-line="192" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <element signature="e#667#683#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/config/ShiroConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="65" column="47" lean-forward="true" selection-start-line="65" selection-start-column="47" selection-end-line="65" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/config/MyToken.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/config/MyShiroRealm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="34" column="29" lean-forward="true" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#1949#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/config/MybatisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="17" column="12" lean-forward="false" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/shiro/shiro-all/1.2.3/shiro-all-1.2.3.jar!/org/apache/shiro/realm/CachingRealm.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/shiro/shiro-all/1.2.3/shiro-all-1.2.3.jar!/org/apache/shiro/realm/AuthenticatingRealm.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="24" column="53" lean-forward="false" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/shiro/shiro-all/1.2.3/shiro-all-1.2.3.jar!/org/apache/shiro/realm/AuthorizingRealm.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="36" column="22" lean-forward="false" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+          <folding>
+            <element signature="e#2059#2060#0" expanded="true" />
+            <element signature="e#2125#2126#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/config/AuthorizationRealm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#784#785#0" expanded="true" />
+            <element signature="e#830#831#0" expanded="true" />
+            <element signature="e#943#944#0" expanded="true" />
+            <element signature="e#970#971#0" expanded="true" />
+            <element signature="e#1027#1028#0" expanded="true" />
+            <element signature="e#1074#1075#0" expanded="true" />
           </folding>
         </state>
       </provider>

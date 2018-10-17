@@ -1,4 +1,4 @@
-package com.hdd.shiro_demo.service;
+package com.hdd.shiro_demo.config;
 
 import com.hdd.shiro_demo.dao.UUserMapper;
 import org.apache.shiro.spring.web.ShiroFilterFactoryBean;
@@ -6,6 +6,7 @@ import org.apache.shiro.web.mgt.DefaultWebSecurityManager;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import sun.security.krb5.Realm;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
@@ -64,7 +65,8 @@ public class ShiroConfig {
     public  org.apache.shiro.mgt.SecurityManager securityManager() {
         DefaultWebSecurityManager securityManager = new DefaultWebSecurityManager();
         // 设置realm.
-        securityManager.setRealm(myShiroRealm());
+        org.apache.shiro.realm.Realm realm=new AuthorizationRealm(uUserMapper);
+        securityManager.setRealm(realm);
         return securityManager;
     }
     /**
@@ -72,10 +74,10 @@ public class ShiroConfig {
      *
      * @return
      */
-    @Bean
-    public MyShiroRealm myShiroRealm() {
-        MyShiroRealm myShiroRealm = new MyShiroRealm(uUserMapper);
+   /* @Bean
+    public AuthorizationRealm myShiroRealm() {
+        AuthorizationRealm myShiroRealm = new AuthorizationRealm(uUserMapper);
         return myShiroRealm;
-    }
+    }*/
 
 }

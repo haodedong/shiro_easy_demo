@@ -1,7 +1,7 @@
 package com.hdd.shiro_demo.controller;
 
 import com.hdd.shiro_demo.domain.UUser;
-import com.hdd.shiro_demo.service.MyToken;
+import com.hdd.shiro_demo.config.MyToken;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.AccountException;
 import org.apache.shiro.realm.jdbc.JdbcRealm;
