@@ -1,6 +1,10 @@
 package com.hdd.shiro_demo.config;
 
+import com.hdd.shiro_demo.dao.URoleMapper;
+import com.hdd.shiro_demo.dao.URolePermissionMapper;
 import com.hdd.shiro_demo.dao.UUserMapper;
+import com.hdd.shiro_demo.dao.UUserRoleMapper;
+import org.apache.ibatis.annotations.Param;
 import org.apache.shiro.spring.web.ShiroFilterFactoryBean;
 import org.apache.shiro.web.mgt.DefaultWebSecurityManager;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,11 +23,18 @@ import java.util.Map;
  */
 @Configuration
 public class ShiroConfig {
-    @Autowired
     private final UUserMapper uUserMapper;
-
-    public ShiroConfig(UUserMapper uUserMapper) {
+    private final UUserRoleMapper uUserRoleMapper;
+    private final URolePermissionMapper uRolePermissionMapper;
+    private final URoleMapper uRoleMapper;
+    public ShiroConfig(URoleMapper uRoleMapper,
+                       UUserMapper uUserMapper,
+                       UUserRoleMapper uUserRoleMapper,
+                       URolePermissionMapper uRolePermissionMapper) {
         this.uUserMapper = uUserMapper;
+        this.uUserRoleMapper=uUserRoleMapper;
+        this.uRolePermissionMapper=uRolePermissionMapper;
+        this.uRoleMapper=uRoleMapper;
     }
 
     /**
@@ -50,6 +61,7 @@ public class ShiroConfig {
         Map<String, String> filterChainDefinitionMap = new LinkedHashMap<String, String>();
         // 配置不会被拦截的链接 顺序判断
         filterChainDefinitionMap.put("/static/**", "anon");
+        //filterChainDefinitionMap.put("/admin/**", "roles[admin]");
         filterChainDefinitionMap.put("/ajaxLogin/**", "anon");
         // 配置退出过滤器,其中的具体的退出代码Shiro已经替我们实现了
         filterChainDefinitionMap.put("/logout", "logout");
@@ -64,9 +76,9 @@ public class ShiroConfig {
     @Bean
     public  org.apache.shiro.mgt.SecurityManager securityManager() {
         DefaultWebSecurityManager securityManager = new DefaultWebSecurityManager();
-        // 设置realm.
-        org.apache.shiro.realm.Realm realm=new AuthorizationRealm(uUserMapper);
-        securityManager.setRealm(realm);
+       /* // 设置realm.
+        org.apache.shiro.realm.Realm realm=new AuthorizationRealm(uUserRoleMapper,uUserMapper);*/
+        securityManager.setRealm(myShiroRealm());
         return securityManager;
     }
     /**
@@ -74,10 +86,10 @@ public class ShiroConfig {
      *
      * @return
      */
-   /* @Bean
+    @Bean
     public AuthorizationRealm myShiroRealm() {
-        AuthorizationRealm myShiroRealm = new AuthorizationRealm(uUserMapper);
+        AuthorizationRealm myShiroRealm = new AuthorizationRealm(uRoleMapper,uRolePermissionMapper,uUserRoleMapper,uUserMapper);
         return myShiroRealm;
-    }*/
+    }
 
 }

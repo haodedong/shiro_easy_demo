@@ -9,6 +9,14 @@
     <result column="rid" jdbcType="BIGINT" property="rid" />
     <result column="pid" jdbcType="BIGINT" property="pid" />
   </resultMap>
+  <resultMap id="RolePermissionMap" type="com.hdd.shiro_demo.domain.RolePermissionVo">
+    <result column="rid"  property="rid"/>
+    <collection property="uPermissions" ofType="com.hdd.shiro_demo.domain.UPermission" column="id">
+      <result column="id" property="id"/>
+      <result column="url" property="url"/>
+      <result column="name" property="name"/>
+    </collection>
+  </resultMap>
   <sql id="Example_Where_Clause">
     <!--
       WARNING - @mbggenerated
@@ -337,4 +345,13 @@
       <include refid="Update_By_Example_Where_Clause" />
     </if>
   </update>-->
-</mapper>
+  <select id="selectPermissioinByRoleId" parameterType="java.lang.Long" resultMap="RolePermissionMap">
+    select
+    *
+    FROM
+    u_role_permission urp
+    LEFT JOIN
+    u_permission up
+    on urp.pid = up.id
+  </select>
+ </mapper>

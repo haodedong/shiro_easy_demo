@@ -4,7 +4,11 @@ import com.hdd.shiro_demo.domain.UUserRole;
 import com.hdd.shiro_demo.domain.UUserRoleExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Insert;
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
+import org.springframework.stereotype.Repository;
+
+@Mapper
 
 public interface UUserRoleMapper {
     /**
@@ -66,4 +70,6 @@ public interface UUserRoleMapper {
      * @mbggenerated
      */
     int updateByExample(@Param("record") UUserRole record, @Param("example") UUserRoleExample example);
+
+    List<UUserRole> selectRoleListByUserId(Long id);
 }
