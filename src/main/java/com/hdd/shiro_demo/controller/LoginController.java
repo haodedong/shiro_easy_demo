@@ -5,6 +5,7 @@ import com.hdd.shiro_demo.config.MyToken;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.AccountException;
 import org.apache.shiro.realm.jdbc.JdbcRealm;
+import org.apache.shiro.session.Session;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.HashMap;
@@ -35,6 +36,11 @@ public class LoginController {
             map.put("message", e.getMessage());
         }
         return map;
+    }
+    @RequestMapping("logout")
+    public String logout(){
+        SecurityUtils.getSubject().logout();
+        return  "你已经登出了";
     }
 
 }
