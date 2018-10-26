@@ -3,12 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="54b2dc57-a096-4970-b9e3-95f886d29761" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/config/ShiroConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/config/ShiroConfig.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/controller/LoginController.java" afterPath="$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/controller/LoginController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/controller/ddd.java" afterPath="$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/controller/ddd.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" afterPath="$PROJECT_DIR$/target/classes/application.properties" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hdd/shiro_demo/controller/LoginController.class" afterPath="$PROJECT_DIR$/target/classes/com/hdd/shiro_demo/controller/LoginController.class" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/shiro_demo.iml" afterPath="$PROJECT_DIR$/shiro_demo.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -35,123 +31,70 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HttpServlet.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/8.5.27/tomcat-embed-core-8.5.27-sources.jar!/javax/servlet/http/HttpServlet.java">
+      <file leaf-file-name="DataSourceBuilder.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/1.5.10.RELEASE/spring-boot-autoconfigure-1.5.10.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/jdbc/DataSourceBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="85" column="0" lean-forward="false" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+            <state relative-caret-position="162">
+              <caret line="41" column="13" lean-forward="false" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataSourceProperties.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/1.5.10.RELEASE/spring-boot-autoconfigure-1.5.10.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/jdbc/DataSourceProperties.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="181" column="24" lean-forward="false" selection-start-line="181" selection-start-column="24" selection-end-line="181" selection-end-column="24" />
               <folding>
-                <element signature="docComment;class#HttpServlet#0" expanded="false" />
-                <element signature="docComment;method#HttpServlet#0;class#HttpServlet#0" expanded="false" />
-                <element signature="method#HttpServlet#0;class#HttpServlet#0" expanded="false" />
-                <element signature="docComment;method#doGet#0;class#HttpServlet#0" expanded="false" />
-                <element signature="method#doGet#0;class#HttpServlet#0" expanded="false" />
-                <element signature="docComment;method#getLastModified#0;class#HttpServlet#0" expanded="false" />
-                <element signature="docComment;method#doHead#0;class#HttpServlet#0" expanded="false" />
-                <element signature="method#doHead#0;class#HttpServlet#0" expanded="false" />
-                <element signature="docComment;method#doPost#0;class#HttpServlet#0" expanded="false" />
-                <element signature="method#doPost#0;class#HttpServlet#0" expanded="false" />
-                <element signature="docComment;method#doPut#0;class#HttpServlet#0" expanded="false" />
-                <element signature="method#doPut#0;class#HttpServlet#0" expanded="false" />
-                <element signature="docComment;method#doDelete#0;class#HttpServlet#0" expanded="false" />
-                <element signature="method#doDelete#0;class#HttpServlet#0" expanded="false" />
-                <element signature="method#getAllDeclaredMethods#0;class#HttpServlet#0" expanded="false" />
-                <element signature="docComment;method#doOptions#0;class#HttpServlet#0" expanded="false" />
-                <element signature="method#doOptions#0;class#HttpServlet#0" expanded="false" />
-                <element signature="docComment;method#doTrace#0;class#HttpServlet#0" expanded="false" />
-                <element signature="method#doTrace#0;class#HttpServlet#0" expanded="false" />
-                <element signature="docComment;method#service#0;class#HttpServlet#0" expanded="false" />
-                <element signature="method#service#0;class#HttpServlet#0" expanded="false" />
-                <element signature="e#25415#25470#0" expanded="false" />
-                <element signature="e#25998#26047#0" expanded="false" />
-                <element signature="e#27054#27056#0" expanded="false" />
-                <element signature="method#maybeSetLastModified#0;class#HttpServlet#0" expanded="false" />
-                <element signature="docComment;method#service#1;class#HttpServlet#0" expanded="false" />
-                <element signature="method#service#1;class#HttpServlet#0" expanded="false" />
-                <element signature="method#NoBodyResponse#0;class#NoBodyResponse#0" expanded="false" />
-                <element signature="method#setContentLength#0;class#NoBodyResponse#0" expanded="false" />
-                <element signature="method#setContentLength#1;class#NoBodyResponse#0" expanded="false" />
-                <element signature="method#setContentLengthLong#0;class#NoBodyResponse#0" expanded="false" />
-                <element signature="method#setHeader#0;class#NoBodyResponse#0" expanded="false" />
-                <element signature="method#addHeader#0;class#NoBodyResponse#0" expanded="false" />
-                <element signature="method#setIntHeader#0;class#NoBodyResponse#0" expanded="false" />
-                <element signature="method#addIntHeader#0;class#NoBodyResponse#0" expanded="false" />
-                <element signature="method#checkHeader#0;class#NoBodyResponse#0" expanded="false" />
-                <element signature="method#getOutputStream#0;class#NoBodyResponse#0" expanded="false" />
-                <element signature="method#getWriter#0;class#NoBodyResponse#0" expanded="false" />
-                <element signature="class#NoBodyOutputStream#0" expanded="false" />
-                <element signature="method#NoBodyOutputStream#0;class#NoBodyOutputStream#0" expanded="false" />
-                <element signature="method#write#1;class#NoBodyOutputStream#0" expanded="false" />
-                <element signature="method#isReady#0;class#NoBodyOutputStream#0" expanded="false" />
-                <element signature="method#setWriteListener#0;class#NoBodyOutputStream#0" expanded="false" />
+                <element signature="e#4005#4006#0" expanded="true" />
+                <element signature="e#4042#4043#0" expanded="true" />
+                <element signature="e#7901#7902#0" expanded="true" />
+                <element signature="e#7932#7933#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DataSourceConfiguration.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/1.5.10.RELEASE/spring-boot-autoconfigure-1.5.10.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration.java">
+      <file leaf-file-name="SimpleInstantiationStrategy.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-beans/4.3.14.RELEASE/spring-beans-4.3.14.RELEASE-sources.jar!/org/springframework/beans/factory/support/SimpleInstantiationStrategy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="60" column="42" lean-forward="false" selection-start-line="60" selection-start-column="42" selection-end-line="60" selection-end-column="42" />
+            <state relative-caret-position="89">
+              <caret line="161" column="0" lean-forward="false" selection-start-line="161" selection-start-column="0" selection-end-line="161" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="ConstructorResolver.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-beans/4.3.14.RELEASE/spring-beans-4.3.14.RELEASE-sources.jar!/org/springframework/beans/factory/support/ConstructorResolver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="47" column="20" lean-forward="true" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
+            <state relative-caret-position="394">
+              <caret line="595" column="0" lean-forward="false" selection-start-line="595" selection-start-column="0" selection-end-line="595" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HttpServletRequest.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/8.5.27/tomcat-embed-core-8.5.27-sources.jar!/javax/servlet/http/HttpServletRequest.java">
+      <file leaf-file-name="AbstractAutowireCapableBeanFactory.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-beans/4.3.14.RELEASE/spring-beans-4.3.14.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="34" column="51" lean-forward="false" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="51" />
+            <state relative-caret-position="251">
+              <caret line="515" column="0" lean-forward="false" selection-start-line="515" selection-start-column="0" selection-end-line="515" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ServletRequest.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/8.5.27/tomcat-embed-core-8.5.27-sources.jar!/javax/servlet/ServletRequest.java">
+      <file leaf-file-name="MybatisAutoConfiguration.java" pinned="false" current-in-tab="true">
+        <entry file="jar://$USER_HOME$/.m2/repository/org/mybatis/spring/boot/mybatis-spring-boot-autoconfigure/1.3.1/mybatis-spring-boot-autoconfigure-1.3.1-sources.jar!/org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="39" column="7" lean-forward="false" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GenericServlet.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/8.5.27/tomcat-embed-core-8.5.27-sources.jar!/javax/servlet/GenericServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="34" column="23" lean-forward="false" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+            <state relative-caret-position="251">
+              <caret line="212" column="13" lean-forward="true" selection-start-line="212" selection-start-column="13" selection-end-line="212" selection-end-column="13" />
               <folding>
-                <element signature="docComment;method#GenericServlet#0;class#GenericServlet#0" expanded="false" />
-                <element signature="method#GenericServlet#0;class#GenericServlet#0" expanded="false" />
-                <element signature="docComment;method#destroy#0;class#GenericServlet#0" expanded="false" />
-                <element signature="method#destroy#0;class#GenericServlet#0" expanded="false" />
-                <element signature="docComment;method#getInitParameter#0;class#GenericServlet#0" expanded="false" />
-                <element signature="docComment;method#getInitParameterNames#0;class#GenericServlet#0" expanded="false" />
-                <element signature="docComment;method#getServletConfig#0;class#GenericServlet#0" expanded="false" />
-                <element signature="docComment;method#getServletContext#0;class#GenericServlet#0" expanded="false" />
-                <element signature="docComment;method#getServletInfo#0;class#GenericServlet#0" expanded="false" />
-                <element signature="docComment;method#init#0;class#GenericServlet#0" expanded="false" />
-                <element signature="method#init#0;class#GenericServlet#0" expanded="false" />
-                <element signature="docComment;method#init#1;class#GenericServlet#0" expanded="false" />
-                <element signature="method#init#1;class#GenericServlet#0" expanded="false" />
-                <element signature="docComment;method#log#0;class#GenericServlet#0" expanded="false" />
-                <element signature="docComment;method#log#1;class#GenericServlet#0" expanded="false" />
-                <element signature="docComment;method#service#0;class#GenericServlet#0" expanded="false" />
-                <element signature="docComment;method#getServletName#0;class#GenericServlet#0" expanded="false" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#9140#9141#0" expanded="true" />
+                <element signature="e#9190#9191#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -169,16 +112,11 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>xml</find>
-      <find>select</find>
-      <find>domain</find>
       <find>spring-beans</find>
       <find>session</find>
-      <find>mybatis</find>
       <find>dataSource</find>
       <find>mysql-connector-java</find>
       <find>druid-spring-boot-starter</find>
-      <find>druid</find>
       <find>UUserMapper</find>
       <find>BaseResultMap</find>
       <find>selectByExample</find>
@@ -199,6 +137,11 @@
       <find>selectPermissioinByRoleId</find>
       <find>setStringPermissions</find>
       <find>@ConfigurationProperties</find>
+      <find>mybatis</find>
+      <find>DataSourceAutoConfiguration</find>
+      <find>druid</find>
+      <find>Shiro拦截器工厂类注入成功</find>
+      <find>AutoConfiguredMapperScannerRegistrar</find>
     </findStrings>
     <replaceStrings>
       <replace>//</replace>
@@ -233,7 +176,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/service/AuthorizationRealm.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/service/MyShiroRealm.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/config/MyShiroRealm.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/UUserMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/UUserRoleMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/config/MyFilter.java" />
@@ -250,6 +192,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/config/ShiroConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/controller/LoginController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/controller/ddd.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -286,8 +229,8 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="816" />
-    <option name="y" value="267" />
+    <option name="x" value="378" />
+    <option name="y" value="426" />
     <option name="width" value="960" />
     <option name="height" value="1040" />
   </component>
@@ -332,7 +275,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -425,8 +368,8 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -612,7 +555,10 @@
       <workItem from="1539925475482" duration="17308000" />
       <workItem from="1539947757846" duration="5958000" />
       <workItem from="1540199826408" duration="1224000" />
-      <workItem from="1540376908274" duration="410000" />
+      <workItem from="1540376908274" duration="1172000" />
+      <workItem from="1540431813095" duration="601000" />
+      <workItem from="1540438671439" duration="3920000" />
+      <workItem from="1540533691047" duration="5521000" />
     </task>
     <task id="LOCAL-00001" summary="修改bug">
       <created>1539608448569</created>
@@ -642,47 +588,54 @@
       <option name="project" value="LOCAL" />
       <updated>1539946751348</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="。。">
+      <created>1540377331861</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1540377331861</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84064000" />
+    <option name="totallyTimeSpent" value="94868000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29157782" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38913044" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3619565" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29157782" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1521739" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3619565" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -698,9 +651,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.033695653" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4402174" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11195652" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3619565" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -710,7 +663,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2675906" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29157782" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -729,7 +682,8 @@
     <MESSAGE value="使用genertor 生成的dao xml model&#10; 之前以为是不能注解和xml混合着用&#10; 后来发现是可以的&#10; 查询出错的原因是。在application.propertys中 一行的末尾 加上了注释 这样导致xml映射没有被扫描" />
     <MESSAGE value="重构 认证" />
     <MESSAGE value="重构 授权" />
-    <option name="LAST_COMMIT_MESSAGE" value="重构 授权" />
+    <MESSAGE value="。。" />
+    <option name="LAST_COMMIT_MESSAGE" value="。。" />
   </component>
   <component name="WindowStateProjectService">
     <state width="192" height="319" key="Git.Branch.Popup" />
@@ -805,13 +759,115 @@
           <properties />
           <option name="timeStamp" value="34" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/1.5.10.RELEASE/spring-boot-autoconfigure-1.5.10.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/jdbc/DataSourceProperties.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.m2/repository/org/mybatis/spring/boot/mybatis-spring-boot-autoconfigure/1.3.1/mybatis-spring-boot-autoconfigure-1.3.1-sources.jar!/org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.java</url>
+          <line>107</line>
+          <properties />
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.m2/repository/org/mybatis/spring/boot/mybatis-spring-boot-autoconfigure/1.3.1/mybatis-spring-boot-autoconfigure-1.3.1-sources.jar!/org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.java</url>
+          <line>185</line>
+          <properties />
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.m2/repository/org/mybatis/spring/boot/mybatis-spring-boot-autoconfigure/1.3.1/mybatis-spring-boot-autoconfigure-1.3.1-sources.jar!/org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.java</url>
+          <line>209</line>
+          <properties />
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.m2/repository/org/mybatis/spring/boot/mybatis-spring-boot-autoconfigure/1.3.1/mybatis-spring-boot-autoconfigure-1.3.1-sources.jar!/org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.java</url>
+          <line>214</line>
+          <properties />
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/dao/UPermissionMapper.java</url>
+          <line>10</line>
+          <properties />
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.m2/repository/org/mybatis/spring/boot/mybatis-spring-boot-autoconfigure/1.3.1/mybatis-spring-boot-autoconfigure-1.3.1-sources.jar!/org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.java</url>
+          <line>79</line>
+          <properties />
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.m2/repository/org/mybatis/spring/boot/mybatis-spring-boot-autoconfigure/1.3.1/mybatis-spring-boot-autoconfigure-1.3.1-sources.jar!/org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.java</url>
+          <line>117</line>
+          <properties />
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.m2/repository/com/alibaba/druid/1.0.20/druid-1.0.20-sources.jar!/com/alibaba/druid/pool/DruidDataSource.java</url>
+          <line>223</line>
+          <properties />
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.m2/repository/com/alibaba/druid/1.0.20/druid-1.0.20-sources.jar!/com/alibaba/druid/pool/DruidDataSource.java</url>
+          <line>103</line>
+          <properties />
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.m2/repository/com/alibaba/druid/1.0.20/druid-1.0.20-sources.jar!/com/alibaba/druid/pool/DruidDataSource.java</url>
+          <line>171</line>
+          <properties />
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.m2/repository/com/alibaba/druid/1.0.20/druid-1.0.20-sources.jar!/com/alibaba/druid/pool/DruidDataSource.java</url>
+          <line>175</line>
+          <properties />
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>jar://$USER_HOME$/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/1.5.10.RELEASE/spring-boot-autoconfigure-1.5.10.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/jdbc/DataSourceProperties.java</url>
+          <line>52</line>
+          <properties field="classLoader" class="org.springframework.boot.autoconfigure.jdbc.DataSourceProperties" />
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>jar://$USER_HOME$/.m2/repository/com/alibaba/druid/1.0.20/druid-1.0.20-sources.jar!/com/alibaba/druid/pool/DruidDataSource.java</url>
+          <line>111</line>
+          <properties field="LOG" class="com.alibaba.druid.pool.DruidDataSource" />
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/dao/UPermissionMapper.java</url>
+          <line>17</line>
+          <properties class="com.hdd.shiro_demo.dao.UPermissionMapper" method="countByExample">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="35" />
+      <option name="time" value="57" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>this.properties.isCheckConfigLocation() &amp;&amp; StringUtils.hasText(this.properties.getConfigLocation())</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>this.properties.resolveMapperLocations()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>uRoles.stream().map(URole::getName).collect(Collectors.toList())</expression-string>
         <language-id>JAVA</language-id>
@@ -847,290 +903,9 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>(String)principalCollection.getPrimaryPrincipal()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>uUserMapper.selectByNameAndPassword(useaName, password)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/hdd/shiro_demo/dao/UUserMapper.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/hdd/shiro_demo/dao/UUserRoleMapper.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/ShiroDemoApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="13" column="28" lean-forward="true" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/dao/UPermissionMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/mybatis/mybatis/3.4.5/mybatis-3.4.5.jar!/org/apache/ibatis/annotations/Mapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/dao/URoleMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="9" column="3" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/dao/UUserRoleMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/dao/URolePermissionMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/dao/UUserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/config/AuthorizationRealm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="59" column="55" lean-forward="false" selection-start-line="59" selection-start-column="55" selection-end-line="59" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-beans/4.3.14.RELEASE/spring-beans-4.3.14.RELEASE-sources.jar!/org/springframework/beans/factory/FactoryBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="55" column="17" lean-forward="false" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/mybatis/mybatis-spring/1.3.1/mybatis-spring-1.3.1.jar!/org/mybatis/spring/SqlSessionFactoryBean.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="41" column="54" lean-forward="false" selection-start-line="41" selection-start-column="54" selection-end-line="41" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/mybatis/mybatis/3.4.5/mybatis-3.4.5.jar!/org/apache/ibatis/session/SqlSessionFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="20" column="60" lean-forward="false" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/mybatis/mybatis/3.4.5/mybatis-3.4.5.jar!/org/apache/ibatis/session/SqlSessionFactoryBuilder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="16" column="37" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/JAVA/JDK/src.zip!/java/io/Reader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="729">
-          <caret line="50" column="22" lean-forward="false" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/mybatis/mybatis/3.4.5/mybatis-3.4.5-sources.jar!/org/apache/ibatis/session/SqlSessionFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/mybatis/mybatis/3.4.5/mybatis-3.4.5-sources.jar!/org/apache/ibatis/session/SqlSessionFactoryBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/mybatis/mybatis-spring/1.3.1/mybatis-spring-1.3.1-sources.jar!/org/mybatis/spring/SqlSessionFactoryBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="73" column="22" lean-forward="true" selection-start-line="73" selection-start-column="22" selection-end-line="73" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/mybatis/mybatis/3.4.5/mybatis-3.4.5-sources.jar!/org/apache/ibatis/session/SqlSession.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.m2/repository/org/mybatis/spring/boot/mybatis-spring-boot-starter/1.3.1/mybatis-spring-boot-starter-1.3.1.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
-          <caret line="45" column="20" lean-forward="true" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/shiro/shiro-spring/1.3.2/shiro-spring-1.3.2-sources.jar!/org/apache/shiro/spring/web/ShiroFilterFactoryBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="183" column="7" lean-forward="true" selection-start-line="183" selection-start-column="7" selection-end-line="183" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/config/MyToken.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/config/MyFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-95">
-          <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/config/ShiroConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-86">
-          <caret line="54" column="33" lean-forward="false" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
-          <folding>
-            <element signature="e#2297#2313#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2-sources.jar!/org/apache/shiro/subject/support/DelegatingSubject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="362" column="28" lean-forward="false" selection-start-line="362" selection-start-column="28" selection-end-line="362" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2-sources.jar!/org/apache/shiro/subject/Subject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="444" column="9" lean-forward="false" selection-start-line="444" selection-start-column="9" selection-end-line="444" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/controller/ddd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="e#397#410#1" expanded="false" />
-            <element signature="e#537#538#0" expanded="false" />
-            <element signature="e#574#575#0" expanded="false" />
-            <element signature="e#675#676#0" expanded="false" />
-            <element signature="e#713#714#0" expanded="false" />
-            <element signature="e#767#768#0" expanded="false" />
-            <element signature="e#795#796#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shiro_demo.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="17" column="28" lean-forward="false" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/boot/spring-boot/1.5.10.RELEASE/spring-boot-1.5.10.RELEASE.jar!/org/springframework/boot/context/properties/ConfigurationProperties.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="17" column="37" lean-forward="false" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="24" lean-forward="false" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/1.5.10.RELEASE/spring-boot-autoconfigure-1.5.10.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/jdbc/DataSourceAutoConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="548">
-          <caret line="75" column="64" lean-forward="false" selection-start-line="75" selection-start-column="64" selection-end-line="75" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/JAVA/JDK/src.zip!/java/lang/ClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="177" column="22" lean-forward="false" selection-start-line="177" selection-start-column="22" selection-end-line="177" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/1.5.10.RELEASE/spring-boot-autoconfigure-1.5.10.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/jdbc/XADataSourceAutoConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="656">
-          <caret line="60" column="23" lean-forward="true" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/1.5.10.RELEASE/spring-boot-autoconfigure-1.5.10.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/jdbc/DataSourceProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="50" column="33" lean-forward="true" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
-          <folding>
-            <element signature="e#5198#5199#0" expanded="false" />
-            <element signature="e#5221#5222#0" expanded="false" />
-            <element signature="e#7901#7902#0" expanded="false" />
-            <element signature="e#7932#7933#0" expanded="false" />
-            <element signature="e#8553#8554#0" expanded="false" />
-            <element signature="e#8584#8585#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-beans/4.3.14.RELEASE/spring-beans-4.3.14.RELEASE-sources.jar!/org/springframework/beans/factory/BeanClassLoaderAware.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="22" column="2" lean-forward="true" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/4.3.14.RELEASE/spring-context-4.3.14.RELEASE.jar!/org/springframework/context/ApplicationContextAware.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-webmvc/4.3.14.RELEASE/spring-webmvc-4.3.14.RELEASE.jar!/org/springframework/web/servlet/HttpServletBean.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -1192,25 +967,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
           <caret line="34" column="23" lean-forward="false" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
-          <folding>
-            <element signature="docComment;method#GenericServlet#0;class#GenericServlet#0" expanded="false" />
-            <element signature="method#GenericServlet#0;class#GenericServlet#0" expanded="false" />
-            <element signature="docComment;method#destroy#0;class#GenericServlet#0" expanded="false" />
-            <element signature="method#destroy#0;class#GenericServlet#0" expanded="false" />
-            <element signature="docComment;method#getInitParameter#0;class#GenericServlet#0" expanded="false" />
-            <element signature="docComment;method#getInitParameterNames#0;class#GenericServlet#0" expanded="false" />
-            <element signature="docComment;method#getServletConfig#0;class#GenericServlet#0" expanded="false" />
-            <element signature="docComment;method#getServletContext#0;class#GenericServlet#0" expanded="false" />
-            <element signature="docComment;method#getServletInfo#0;class#GenericServlet#0" expanded="false" />
-            <element signature="docComment;method#init#0;class#GenericServlet#0" expanded="false" />
-            <element signature="method#init#0;class#GenericServlet#0" expanded="false" />
-            <element signature="docComment;method#init#1;class#GenericServlet#0" expanded="false" />
-            <element signature="method#init#1;class#GenericServlet#0" expanded="false" />
-            <element signature="docComment;method#log#0;class#GenericServlet#0" expanded="false" />
-            <element signature="docComment;method#log#1;class#GenericServlet#0" expanded="false" />
-            <element signature="docComment;method#service#0;class#GenericServlet#0" expanded="false" />
-            <element signature="docComment;method#getServletName#0;class#GenericServlet#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1226,7 +982,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="39" column="7" lean-forward="false" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1234,67 +989,609 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
           <caret line="85" column="0" lean-forward="false" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
-          <folding>
-            <element signature="docComment;class#HttpServlet#0" expanded="false" />
-            <element signature="docComment;method#HttpServlet#0;class#HttpServlet#0" expanded="false" />
-            <element signature="method#HttpServlet#0;class#HttpServlet#0" expanded="false" />
-            <element signature="docComment;method#doGet#0;class#HttpServlet#0" expanded="false" />
-            <element signature="method#doGet#0;class#HttpServlet#0" expanded="false" />
-            <element signature="docComment;method#getLastModified#0;class#HttpServlet#0" expanded="false" />
-            <element signature="docComment;method#doHead#0;class#HttpServlet#0" expanded="false" />
-            <element signature="method#doHead#0;class#HttpServlet#0" expanded="false" />
-            <element signature="docComment;method#doPost#0;class#HttpServlet#0" expanded="false" />
-            <element signature="method#doPost#0;class#HttpServlet#0" expanded="false" />
-            <element signature="docComment;method#doPut#0;class#HttpServlet#0" expanded="false" />
-            <element signature="method#doPut#0;class#HttpServlet#0" expanded="false" />
-            <element signature="docComment;method#doDelete#0;class#HttpServlet#0" expanded="false" />
-            <element signature="method#doDelete#0;class#HttpServlet#0" expanded="false" />
-            <element signature="method#getAllDeclaredMethods#0;class#HttpServlet#0" expanded="false" />
-            <element signature="docComment;method#doOptions#0;class#HttpServlet#0" expanded="false" />
-            <element signature="method#doOptions#0;class#HttpServlet#0" expanded="false" />
-            <element signature="docComment;method#doTrace#0;class#HttpServlet#0" expanded="false" />
-            <element signature="method#doTrace#0;class#HttpServlet#0" expanded="false" />
-            <element signature="docComment;method#service#0;class#HttpServlet#0" expanded="false" />
-            <element signature="method#service#0;class#HttpServlet#0" expanded="false" />
-            <element signature="e#25415#25470#0" expanded="false" />
-            <element signature="e#25998#26047#0" expanded="false" />
-            <element signature="e#27054#27056#0" expanded="false" />
-            <element signature="method#maybeSetLastModified#0;class#HttpServlet#0" expanded="false" />
-            <element signature="docComment;method#service#1;class#HttpServlet#0" expanded="false" />
-            <element signature="method#service#1;class#HttpServlet#0" expanded="false" />
-            <element signature="method#NoBodyResponse#0;class#NoBodyResponse#0" expanded="false" />
-            <element signature="method#setContentLength#0;class#NoBodyResponse#0" expanded="false" />
-            <element signature="method#setContentLength#1;class#NoBodyResponse#0" expanded="false" />
-            <element signature="method#setContentLengthLong#0;class#NoBodyResponse#0" expanded="false" />
-            <element signature="method#setHeader#0;class#NoBodyResponse#0" expanded="false" />
-            <element signature="method#addHeader#0;class#NoBodyResponse#0" expanded="false" />
-            <element signature="method#setIntHeader#0;class#NoBodyResponse#0" expanded="false" />
-            <element signature="method#addIntHeader#0;class#NoBodyResponse#0" expanded="false" />
-            <element signature="method#checkHeader#0;class#NoBodyResponse#0" expanded="false" />
-            <element signature="method#getOutputStream#0;class#NoBodyResponse#0" expanded="false" />
-            <element signature="method#getWriter#0;class#NoBodyResponse#0" expanded="false" />
-            <element signature="class#NoBodyOutputStream#0" expanded="false" />
-            <element signature="method#NoBodyOutputStream#0;class#NoBodyOutputStream#0" expanded="false" />
-            <element signature="method#write#1;class#NoBodyOutputStream#0" expanded="false" />
-            <element signature="method#isReady#0;class#NoBodyOutputStream#0" expanded="false" />
-            <element signature="method#setWriteListener#0;class#NoBodyOutputStream#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/1.5.10.RELEASE/spring-boot-autoconfigure-1.5.10.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration.java">
+    <entry file="file://$USER_HOME$/.m2/repository/org/mybatis/mybatis/3.4.5/mybatis-3.4.5.pom">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="60" column="42" lean-forward="false" selection-start-line="60" selection-start-column="42" selection-end-line="60" selection-end-column="42" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.m2/repository/org/mybatis/spring/boot/mybatis-spring-boot-starter/1.3.1/mybatis-spring-boot-starter-1.3.1.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1215">
+          <caret line="45" column="20" lean-forward="false" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/mybatis/spring/boot/mybatis-spring-boot-autoconfigure/1.3.1/mybatis-spring-boot-autoconfigure-1.3.1.jar!/org/mybatis/spring/boot/autoconfigure/MybatisProperties.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="541">
+          <caret line="62" column="16" lean-forward="false" selection-start-line="62" selection-start-column="16" selection-end-line="62" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/1.5.10.RELEASE/spring-boot-autoconfigure-1.5.10.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/jdbc/DataSourceAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="66" column="13" lean-forward="false" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/4.3.14.RELEASE/spring-context-4.3.14.RELEASE.jar!/org/springframework/context/ApplicationContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/1.5.10.RELEASE/spring-boot-autoconfigure-1.5.10.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/jdbc/DataSourceInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="50" column="47" lean-forward="false" selection-start-line="50" selection-start-column="47" selection-end-line="50" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/mybatis/mybatis/3.4.5/mybatis-3.4.5-sources.jar!/org/apache/ibatis/session/SqlSessionFactoryBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="47" column="20" lean-forward="true" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
+        <state relative-caret-position="434">
+          <caret line="25" column="37" lean-forward="false" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/controller/ddd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/mybatis/spring/boot/mybatis-spring-boot-autoconfigure/1.3.1/mybatis-spring-boot-autoconfigure-1.3.1-sources.jar!/org/mybatis/spring/boot/autoconfigure/MybatisProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="133" column="17" lean-forward="false" selection-start-line="133" selection-start-column="17" selection-end-line="133" selection-end-column="17" />
+          <folding>
+            <element signature="e#3112#3113#0" expanded="false" />
+            <element signature="e#3160#3161#0" expanded="false" />
+            <element signature="e#3616#3617#0" expanded="false" />
+            <element signature="e#3657#3658#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/JAVA/JDK/src.zip!/java/lang/reflect/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="485" column="36" lean-forward="true" selection-start-line="485" selection-start-column="36" selection-end-line="485" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-beans/4.3.14.RELEASE/spring-beans-4.3.14.RELEASE-sources.jar!/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="258" column="0" lean-forward="false" selection-start-line="258" selection-start-column="0" selection-end-line="258" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-beans/4.3.14.RELEASE/spring-beans-4.3.14.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="201" column="0" lean-forward="false" selection-start-line="201" selection-start-column="0" selection-end-line="201" selection-end-column="0" />
+          <folding>
+            <element signature="e#12952#13495#0" expanded="false" />
+            <element signature="e#13494#13495#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-beans/4.3.14.RELEASE/spring-beans-4.3.14.RELEASE-sources.jar!/org/springframework/beans/factory/config/DependencyDescriptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="207" column="0" lean-forward="false" selection-start-line="207" selection-start-column="0" selection-end-line="207" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-beans/4.3.14.RELEASE/spring-beans-4.3.14.RELEASE-sources.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="1067" column="0" lean-forward="false" selection-start-line="1067" selection-start-column="0" selection-end-line="1067" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/ShiroDemoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hdd/shiro_demo/dao/UPermissionMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-beans/4.3.14.RELEASE/spring-beans-4.3.14.RELEASE-sources.jar!/org/springframework/beans/factory/support/BeanDefinitionRegistry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="742">
+          <caret line="47" column="17" lean-forward="false" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-core/4.3.14.RELEASE/spring-core-4.3.14.RELEASE-sources.jar!/org/springframework/core/io/ResourceLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-447">
+          <caret line="40" column="17" lean-forward="false" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/com/alibaba/druid/1.0.20/druid-1.0.20.jar!/com/alibaba/druid/pool/DruidDataSource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="84" column="13" lean-forward="false" selection-start-line="84" selection-start-column="13" selection-end-line="84" selection-end-column="13" />
+          <folding>
+            <marker date="1531798649393" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1531798649393" expanded="false" signature="146:3556" ph="..." />
+            <marker date="1531798649393" expanded="false" signature="5498:5509" ph=" { " />
+            <marker date="1531798649393" expanded="false" signature="5521:5527" ph=" }" />
+            <marker date="1531798649393" expanded="true" signature="5574:6696" ph="{...}" />
+            <marker date="1531798649393" expanded="true" signature="6755:11385" ph="{...}" />
+            <marker date="1531798649393" expanded="false" signature="11433:11444" ph=" { " />
+            <marker date="1531798649393" expanded="false" signature="11480:11486" ph=" }" />
+            <marker date="1531798649393" expanded="true" signature="11564:11635" ph="{...}" />
+            <marker date="1531798649393" expanded="false" signature="11674:11685" ph=" { " />
+            <marker date="1531798649393" expanded="false" signature="11712:11718" ph=" }" />
+            <marker date="1531798649393" expanded="false" signature="11758:11769" ph=" { " />
+            <marker date="1531798649393" expanded="false" signature="11797:11803" ph=" }" />
+            <marker date="1531798649393" expanded="true" signature="11865:12043" ph="{...}" />
+            <marker date="1531798649393" expanded="false" signature="12078:12089" ph=" { " />
+            <marker date="1531798649393" expanded="false" signature="12114:12120" ph=" }" />
+            <marker date="1531798649393" expanded="true" signature="12168:12715" ph="{...}" />
+            <marker date="1531798649393" expanded="true" signature="12745:14265" ph="{...}" />
+            <marker date="1531798649393" expanded="false" signature="14298:14309" ph=" { " />
+            <marker date="1531798649393" expanded="false" signature="14338:14344" ph=" }" />
+            <marker date="1531798649393" expanded="false" signature="14375:14386" ph=" { " />
+            <marker date="1531798649393" expanded="false" signature="14405:14411" ph=" }" />
+            <marker date="1531798649393" expanded="true" signature="14455:14728" ph="{...}" />
+            <marker date="1531798649393" expanded="true" signature="14787:15947" ph="{...}" />
+            <marker date="1531798649393" expanded="true" signature="15993:17202" ph="{...}" />
+            <marker date="1531798649393" expanded="true" signature="17264:19027" ph="{...}" />
+            <marker date="1531798649393" expanded="true" signature="19072:26175" ph="{...}" />
+            <marker date="1531798649393" expanded="true" signature="26215:26541" ph="{...}" />
+            <marker date="1531798649393" expanded="true" signature="26592:27305" ph="{...}" />
+            <marker date="1531798649393" expanded="true" signature="27356:27719" ph="{...}" />
+            <marker date="1531798649393" expanded="true" signature="27765:28541" ph="{...}" />
+            <marker date="1531798649393" expanded="true" signature="28604:29298" ph="{...}" />
+            <marker date="1531798649393" expanded="true" signature="29342:29764" ph="{...}" />
+            <marker date="1531798649393" expanded="true" signature="29806:30675" ph="{...}" />
+            <marker date="1531798649393" expanded="true" signature="30728:31388" ph="{...}" />
+            <marker date="1531798649393" expanded="true" signature="31436:32393" ph="{...}" />
+            <marker date="1531798649393" expanded="true" signature="32438:33396" ph="{...}" />
+            <marker date="1531798649393" expanded="true" signature="33444:34154" ph="{...}" />
+            <marker date="1531798649393" expanded="true" signature="34195:35490" ph="{...}" />
+            <marker date="1531798649393" expanded="true" signature="35561:35617" ph="{...}" />
+            <marker date="1531798649393" expanded="true" signature="35706:36001" ph="{...}" />
+            <marker date="1531798649393" expanded="true" signature="36073:36129" ph="{...}" />
+            <marker date="1531798649393" expanded="true" signature="36229:36321" ph="{...}" />
+            <marker date="1531798649393" expanded="true" signature="36416:39692" ph="{...}" />
+            <marker date="1531798649393" expanded="true" signature="39755:40074" ph="{...}" />
+            <marker date="1531798649393" expanded="true" signature="40166:43663" ph="{...}" />
+            <marker date="1531798649393" expanded="true" signature="43780:45721" ph="{...}" />
+            <marker date="1531798649393" expanded="true" signature="45810:49461" ph="{...}" />
+            <marker date="1531798649393" expanded="false" signature="49501:49512" ph=" { " />
+            <marker date="1531798649393" expanded="false" signature="49548:49554" ph=" }" />
+            <marker date="1531798649393" expanded="true" signature="49614:49911" ph="{...}" />
+            <marker date="1531798649393" expanded="true" signature="49937:52214" ph="{...}" />
+            <marker date="1531798649393" expanded="true" signature="52248:52751" ph="{...}" />
+            <marker date="1531798649393" expanded="false" signature="52329:52399" ph="run() → {" />
+            <marker date="1531798649393" expanded="false" signature="52713:52732" ph="}" />
+            <marker date="1531798649393" expanded="true" signature="52787:53174" ph="{...}" />
+            <marker date="1531798649393" expanded="false" signature="52867:52937" ph="run() → {" />
+            <marker date="1531798649393" expanded="false" signature="53136:53155" ph="}" />
+            <marker date="1531798649393" expanded="false" signature="53214:53225" ph=" { " />
+            <marker date="1531798649393" expanded="false" signature="53253:53259" ph=" }" />
+            <marker date="1531798649393" expanded="true" signature="53333:53887" ph="{...}" />
+            <marker date="1531798649393" expanded="true" signature="53968:55201" ph="{...}" />
+            <marker date="1531798649393" expanded="true" signature="55300:57074" ph="{...}" />
+            <marker date="1531798649393" expanded="false" signature="57122:57133" ph=" { " />
+            <marker date="1531798649393" expanded="false" signature="57153:57159" ph=" }" />
+            <marker date="1531798649393" expanded="false" signature="57207:57218" ph=" { " />
+            <marker date="1531798649393" expanded="false" signature="57238:57244" ph=" }" />
+            <marker date="1531798649393" expanded="true" signature="57336:57716" ph="{...}" />
+            <marker date="1531798649393" expanded="false" signature="57750:57761" ph=" { " />
+            <marker date="1531798649393" expanded="false" signature="57791:57797" ph=" }" />
+            <marker date="1531798649393" expanded="false" signature="57832:57843" ph=" { " />
+            <marker date="1531798649393" expanded="false" signature="57874:57880" ph=" }" />
+            <marker date="1531798649393" expanded="true" signature="57916:58105" ph="{...}" />
+            <marker date="1531798649393" expanded="false" signature="58138:58149" ph=" { " />
+            <marker date="1531798649393" expanded="false" signature="58172:58178" ph=" }" />
+            <marker date="1531798649393" expanded="false" signature="58218:58229" ph=" { " />
+            <marker date="1531798649393" expanded="false" signature="58265:58271" ph=" }" />
+            <marker date="1531798649393" expanded="true" signature="58306:58494" ph="{...}" />
+            <marker date="1531798649393" expanded="true" signature="58528:58715" ph="{...}" />
+            <marker date="1531798649393" expanded="false" signature="58753:58764" ph=" { " />
+            <marker date="1531798649393" expanded="false" signature="58838:58844" ph=" }" />
+            <marker date="1531798649393" expanded="false" signature="58879:58890" ph=" { " />
+            <marker date="1531798649393" expanded="false" signature="58915:58921" ph=" }" />
+            <marker date="1531798649393" expanded="true" signature="58955:59142" ph="{...}" />
+            <marker date="1531798649393" expanded="true" signature="59171:59403" ph="{...}" />
+            <marker date="1531798649393" expanded="true" signature="59464:63247" ph="{...}" />
+            <marker date="1531798649393" expanded="false" signature="63290:63301" ph=" { " />
+            <marker date="1531798649393" expanded="false" signature="63334:63340" ph=" }" />
+            <marker date="1531798649393" expanded="true" signature="63415:64903" ph="{...}" />
+            <marker date="1531798649393" expanded="true" signature="64938:67971" ph="{...}" />
+            <marker date="1531798649393" expanded="true" signature="68032:68505" ph="{...}" />
+            <marker date="1531798649393" expanded="true" signature="68553:68822" ph="{...}" />
+            <marker date="1531798649393" expanded="true" signature="68866:69022" ph="{...}" />
+            <marker date="1531798649393" expanded="true" signature="69066:69222" ph="{...}" />
+            <marker date="1531798649393" expanded="true" signature="69258:69515" ph="{...}" />
+            <marker date="1531798649393" expanded="false" signature="69541:69552" ph=" { " />
+            <marker date="1531798649393" expanded="false" signature="69571:69577" ph=" }" />
+            <marker date="1531798649393" expanded="true" signature="69621:71888" ph="{...}" />
+            <marker date="1531798649393" expanded="true" signature="71926:72140" ph="{...}" />
+            <marker date="1531798649393" expanded="false" signature="72180:72191" ph=" { " />
+            <marker date="1531798649393" expanded="false" signature="72221:72227" ph=" }" />
+            <marker date="1531798649393" expanded="true" signature="72273:72472" ph="{...}" />
+            <marker date="1531798649393" expanded="true" signature="72517:72715" ph="{...}" />
+            <marker date="1531798649393" expanded="false" signature="72757:72768" ph=" { " />
+            <marker date="1531798649393" expanded="false" signature="72800:72806" ph=" }" />
+            <marker date="1531798649393" expanded="false" signature="72847:72858" ph=" { " />
+            <marker date="1531798649393" expanded="false" signature="72899:72905" ph=" }" />
+            <marker date="1531798649393" expanded="false" signature="72945:72956" ph=" { " />
+            <marker date="1531798649393" expanded="false" signature="72986:72992" ph=" }" />
+            <marker date="1531798649393" expanded="false" signature="73029:73040" ph=" { " />
+            <marker date="1531798649393" expanded="false" signature="73074:73080" ph=" }" />
+            <marker date="1531798649393" expanded="false" signature="73112:73123" ph=" { " />
+            <marker date="1531798649393" expanded="false" signature="73146:73152" ph=" }" />
+            <marker date="1531798649393" expanded="false" signature="73189:73200" ph=" { " />
+            <marker date="1531798649393" expanded="false" signature="73272:73278" ph=" }" />
+            <marker date="1531798649393" expanded="true" signature="73305:73494" ph="{...}" />
+            <marker date="1531798649393" expanded="false" signature="73527:73538" ph=" { " />
+            <marker date="1531798649393" expanded="false" signature="73567:73573" ph=" }" />
+            <marker date="1531798649393" expanded="true" signature="73604:76501" ph="{...}" />
+            <marker date="1531798649393" expanded="true" signature="76567:78747" ph="{...}" />
+            <marker date="1531798649393" expanded="true" signature="78802:79499" ph="{...}" />
+            <marker date="1531798649393" expanded="false" signature="79531:79542" ph=" { " />
+            <marker date="1531798649393" expanded="false" signature="79576:79582" ph=" }" />
+            <marker date="1531798649393" expanded="false" signature="79633:79644" ph=" { " />
+            <marker date="1531798649393" expanded="false" signature="79671:79677" ph=" }" />
+            <marker date="1531798649393" expanded="true" signature="79739:79790" ph="{...}" />
+            <marker date="1531798649393" expanded="true" signature="79842:79943" ph="{...}" />
+            <marker date="1531798649393" expanded="true" signature="79998:83303" ph="{...}" />
+            <marker date="1531798649393" expanded="true" signature="83350:87403" ph="{...}" />
+            <marker date="1531798649393" expanded="false" signature="87449:87460" ph=" { " />
+            <marker date="1531798649393" expanded="false" signature="87510:87516" ph=" }" />
+            <marker date="1531798649393" expanded="false" signature="87563:87574" ph=" { " />
+            <marker date="1531798649393" expanded="false" signature="87624:87630" ph=" }" />
+            <marker date="1531798649393" expanded="false" signature="87683:87694" ph=" { " />
+            <marker date="1531798649393" expanded="false" signature="87742:87748" ph=" }" />
+            <marker date="1531798649393" expanded="true" signature="87798:87950" ph="{...}" />
+            <marker date="1531798649393" expanded="true" signature="88017:88395" ph="{...}" />
+            <marker date="1531798649393" expanded="false" signature="88422:88433" ph=" { " />
+            <marker date="1531798649393" expanded="false" signature="88450:88456" ph=" }" />
+            <marker date="1531798649393" expanded="true" signature="88506:88902" ph="{...}" />
+            <marker date="1531798649393" expanded="true" signature="88944:89347" ph="{...}" />
+            <marker date="1531798649393" expanded="false" signature="89390:89401" ph=" { " />
+            <marker date="1531798649393" expanded="false" signature="89432:89438" ph=" }" />
+            <marker date="1531798649393" expanded="false" signature="89505:89516" ph=" { " />
+            <marker date="1531798649393" expanded="false" signature="89561:89567" ph=" }" />
+            <marker date="1531798649393" expanded="true" signature="89641:89717" ph="{...}" />
+            <marker date="1531798649393" expanded="true" signature="89761:89810" ph="{...}" />
+            <marker date="1531798649393" expanded="true" signature="89865:92151" ph="{...}" />
+            <marker date="1531798649393" expanded="true" signature="92197:92341" ph="{...}" />
+            <marker date="1531798649393" expanded="true" signature="92371:92600" ph="{...}" />
+            <marker date="1531798649393" expanded="true" signature="92633:93101" ph="{...}" />
+            <marker date="1531798649393" expanded="true" signature="93191:93517" ph="{...}" />
+            <marker date="1531798649393" expanded="true" signature="93574:93581" ph="{}" />
+            <marker date="1531798649393" expanded="true" signature="93632:93639" ph="{}" />
+            <marker date="1531798649393" expanded="true" signature="93674:93681" ph="{}" />
+            <marker date="1531798649393" expanded="false" signature="93712:93723" ph=" { " />
+            <marker date="1531798649393" expanded="false" signature="93742:93748" ph=" }" />
+            <marker date="1531798649393" expanded="true" signature="93797:94415" ph="{...}" />
+            <marker date="1531798649393" expanded="true" signature="93842:93912" ph="{...}" />
+            <marker date="1531798649393" expanded="true" signature="93940:94409" ph="{...}" />
+            <marker date="1531798649393" expanded="true" signature="94466:94731" ph="{...}" />
+            <marker date="1531798649393" expanded="true" signature="94497:94508" ph="{}" />
+            <marker date="1531798649393" expanded="true" signature="94536:94725" ph="{...}" />
+            <marker date="1531798649393" expanded="true" signature="94789:95720" ph="{...}" />
+            <marker date="1531798649393" expanded="true" signature="94843:94913" ph="{...}" />
+            <marker date="1531798649393" expanded="true" signature="94941:95714" ph="{...}" />
+            <marker date="1531798649393" expanded="true" signature="95777:100170" ph="{...}" />
+            <marker date="1531798649393" expanded="true" signature="95830:95900" ph="{...}" />
+            <marker date="1531798649393" expanded="true" signature="95928:100164" ph="{...}" />
+            <marker date="1531798649393" expanded="true" signature="100230:104232" ph="{...}" />
+            <marker date="1531798649393" expanded="true" signature="100307:100318" ph="{}" />
+            <marker date="1531798649393" expanded="false" signature="100345:100360" ph=" { " />
+            <marker date="1531798649393" expanded="false" signature="100379:100389" ph=" }" />
+            <marker date="1531798649393" expanded="true" signature="100426:104226" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/JAVA/JDK/src.zip!/javax/sql/DataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="76" column="17" lean-forward="false" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/mybatis/mybatis-spring/1.3.1/mybatis-spring-1.3.1-sources.jar!/org/mybatis/spring/SqlSessionFactoryBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="75" column="13" lean-forward="false" selection-start-line="75" selection-start-column="13" selection-end-line="75" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-beans/4.3.14.RELEASE/spring-beans-4.3.14.RELEASE-sources.jar!/org/springframework/beans/factory/BeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="114" column="17" lean-forward="false" selection-start-line="114" selection-start-column="17" selection-end-line="114" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/4.3.14.RELEASE/spring-context-4.3.14.RELEASE.jar!/org/springframework/context/annotation/ParserStrategyUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="562">
+          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/4.3.14.RELEASE/spring-context-4.3.14.RELEASE.jar!/org/springframework/context/annotation/ConfigurationClassParser.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="449" column="241" lean-forward="false" selection-start-line="449" selection-start-column="241" selection-end-line="449" selection-end-column="241" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-beans/4.3.14.RELEASE/spring-beans-4.3.14.RELEASE-sources.jar!/org/springframework/beans/factory/annotation/InitDestroyAnnotationBeanPostProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="311" column="0" lean-forward="false" selection-start-line="311" selection-start-column="0" selection-end-line="311" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/JAVA/JDK/src.zip!/java/lang/ClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="181" column="20" lean-forward="false" selection-start-line="181" selection-start-column="20" selection-end-line="181" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/com/alibaba/druid/1.0.20/druid-1.0.20-sources.jar!/com/alibaba/druid/pool/DruidAbstractDataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="252" column="11" lean-forward="false" selection-start-line="252" selection-start-column="11" selection-end-line="252" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/com/alibaba/druid/1.0.20/druid-1.0.20-sources.jar!/com/alibaba/druid/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="21" column="31" lean-forward="false" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/com/alibaba/druid/1.0.20/druid-1.0.20-sources.jar!/com/alibaba/druid/pool/DruidDataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="172" column="0" lean-forward="false" selection-start-line="172" selection-start-column="0" selection-end-line="172" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;class#DruidDataSource#0" expanded="false" />
+            <element signature="e#7483#7484#0" expanded="false" />
+            <element signature="method#setUseGlobalDataSourceStat#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="method#setResetStatEnable#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="method#restart#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="method#resetStat#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="method#setEnable#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="method#setPoolPreparedStatements#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="method#setMaxActive#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="method#setConnectProperties#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="method#init#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="method#createAndLogThread#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="method#createAndStartDestroyThread#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="method#createAndStartCreatorThread#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="docComment;method#initFromSPIServiceLoader#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="method#initFromSPIServiceLoader#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="method#initFromWrapDriverUrl#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="docComment;method#addFilter#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="method#addFilter#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="method#validationQueryCheck#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="method#initCheck#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="method#oracleValidationQueryCheck#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="method#db2ValidationQueryCheck#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="method#initValidConnectionChecker#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="method#initExceptionSorter#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="method#getConnection#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="method#getConnection#1;class#DruidDataSource#0" expanded="false" />
+            <element signature="method#getPooledConnection#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="method#getPooledConnection#1;class#DruidDataSource#0" expanded="false" />
+            <element signature="method#getConnectionDirect#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="docComment;method#discardConnection#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="method#discardConnection#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="method#getConnectionInternal#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="method#handleConnectionException#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="docComment;method#recycle#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="method#recycle#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="method#clearStatementCache#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="docComment;method#close#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="method#close#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="method#registerMbean#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="method#unregisterMbean#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="method#putLast#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="method#takeLast#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="method#pollLast#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="e#54717#54730#0" expanded="false" />
+            <element signature="method#getConnection#2;class#DruidDataSource#0" expanded="false" />
+            <element signature="method#getConnectCount#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="method#getPoolingCount#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="method#getPoolingPeak#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="method#getPoolingPeakTime#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="method#getActiveCount#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="method#logStats#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="method#getStatValueAndReset#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="method#put#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="class#CreateConnectionTask#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="method#runInternal#0;class#CreateConnectionTask#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="class#CreateConnectionThread#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="method#CreateConnectionThread#0;class#CreateConnectionThread#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="method#run#0;class#CreateConnectionThread#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="class#DestroyConnectionThread#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="method#DestroyConnectionThread#0;class#DestroyConnectionThread#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="method#run#0;class#DestroyConnectionThread#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="class#DestroyTask#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="method#run#0;class#DestroyTask#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="class#LogStatsThread#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="method#LogStatsThread#0;class#LogStatsThread#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="method#run#0;class#LogStatsThread#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="method#removeAbandoned#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="docComment;field#instanceKey#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="method#getReference#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="method#getFilterClassNames#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="method#getRawDriverMajorVersion#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="method#getRawDriverMinorVersion#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="method#getProperties#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="method#shrink#1;class#DruidDataSource#0" expanded="false" />
+            <element signature="method#getWaitThreadCount#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="method#getNotEmptyWaitThreadCount#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="method#getNotEmptyWaitThreadPeak#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="method#getActivePeakTime#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="method#dump#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="method#toString#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="method#getPoolingConnectionInfo#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="method#logTransaction#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="method#clone#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="method#cloneDruidDataSource#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="method#getStatDataForMBean#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="method#getStatData#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="method#getWallStatMap#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="method#getWallStatValue#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="method#isWrapperFor#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="method#unwrap#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="method#tryGetConnection#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="method#fill#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="method#fill#1;class#DruidDataSource#0" expanded="false" />
+            <element signature="method#isFillable#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="method#isFull#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="method#emptySignal#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="method#preRegister#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="method#postRegister#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="method#preDeregister#0;class#DruidDataSource#0" expanded="false" />
+            <element signature="method#postDeregister#0;class#DruidDataSource#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-beans/4.3.14.RELEASE/spring-beans-4.3.14.RELEASE-sources.jar!/org/springframework/beans/BeanUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="71" column="27" lean-forward="false" selection-start-line="71" selection-start-column="27" selection-end-line="71" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/1.5.10.RELEASE/spring-boot-autoconfigure-1.5.10.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="138" column="45" lean-forward="true" selection-start-line="138" selection-start-column="45" selection-end-line="138" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/1.5.10.RELEASE/spring-boot-autoconfigure-1.5.10.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/jdbc/DataSourceBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="41" column="13" lean-forward="false" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/1.5.10.RELEASE/spring-boot-autoconfigure-1.5.10.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/jdbc/DataSourceProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="181" column="24" lean-forward="false" selection-start-line="181" selection-start-column="24" selection-end-line="181" selection-end-column="24" />
+          <folding>
+            <element signature="e#4005#4006#0" expanded="true" />
+            <element signature="e#4042#4043#0" expanded="true" />
+            <element signature="e#7901#7902#0" expanded="true" />
+            <element signature="e#7932#7933#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-beans/4.3.14.RELEASE/spring-beans-4.3.14.RELEASE-sources.jar!/org/springframework/beans/factory/support/SimpleInstantiationStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="161" column="0" lean-forward="false" selection-start-line="161" selection-start-column="0" selection-end-line="161" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-beans/4.3.14.RELEASE/spring-beans-4.3.14.RELEASE-sources.jar!/org/springframework/beans/factory/support/ConstructorResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="595" column="0" lean-forward="false" selection-start-line="595" selection-start-column="0" selection-end-line="595" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-beans/4.3.14.RELEASE/spring-beans-4.3.14.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="515" column="0" lean-forward="false" selection-start-line="515" selection-start-column="0" selection-end-line="515" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/mybatis/spring/boot/mybatis-spring-boot-autoconfigure/1.3.1/mybatis-spring-boot-autoconfigure-1.3.1-sources.jar!/org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="212" column="13" lean-forward="true" selection-start-line="212" selection-start-column="13" selection-end-line="212" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#9140#9141#0" expanded="true" />
+            <element signature="e#9190#9191#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
